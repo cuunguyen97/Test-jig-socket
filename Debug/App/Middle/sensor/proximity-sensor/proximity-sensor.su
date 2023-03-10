@@ -1,0 +1,2 @@
+../App/Middle/sensor/proximity-sensor/proximity-sensor.c:54:6:proximitySensorInit	16	static
+../App/Middle/sensor/proximity-sensor/proximity-sensor.c:66:24:proximitySensorScan	16	static

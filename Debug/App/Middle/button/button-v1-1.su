@@ -1,0 +1,6 @@
+../App/Middle/button/button-v1-1.c:69:6:buttonInit	16	static
+../App/Middle/button/button-v1-1.c:97:9:scanButtonStopStart	16	static
+../App/Middle/button/button-v1-1.c:107:17:dwCalculatorTime	16	static
+../App/Middle/button/button-v1-1.c:118:12:processEventButton	16	static
+../App/Middle/button/button-v1-1.c:270:13:GetEventButton	16	static
+../App/Middle/button/button-v1-1.c:703:22:checkEventButton	24	static

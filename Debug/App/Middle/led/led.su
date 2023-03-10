@@ -1,0 +1,2 @@
+../App/Middle/led/led.c:54:6:controlLed	16	static
+../App/Middle/led/led.c:80:6:ledInit	16	static
