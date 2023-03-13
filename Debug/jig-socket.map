@@ -8,6 +8,8 @@ c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.external
                               c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
                               c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+                              ./App/Middle/flash/flash.o (memcmp)
 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
                               c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strlen.o)
@@ -1102,6 +1104,98 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0x490 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
  .ARM.attributes
                 0x0000000000000000       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .group         0x0000000000000000        0xc ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text          0x0000000000000000        0x0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .data          0x0000000000000000        0x0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .bss           0x0000000000000000        0x0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheCmd
+                0x0000000000000000       0x3c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_DataCacheCmd
+                0x0000000000000000       0x3c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_InstructionCacheReset
+                0x0000000000000000       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_DataCacheReset
+                0x0000000000000000       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_EraseAllSectors
+                0x0000000000000000       0xa0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_EraseAllBank1Sectors
+                0x0000000000000000       0xa0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_EraseAllBank2Sectors
+                0x0000000000000000       0xa0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_ProgramDoubleWord
+                0x0000000000000000       0x70 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_ProgramHalfWord
+                0x0000000000000000       0x6c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_ProgramByte
+                0x0000000000000000       0x68 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_Unlock
+                0x0000000000000000       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_Lock
+                0x0000000000000000       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_WRPConfig
+                0x0000000000000000       0x5c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_WRP1Config
+                0x0000000000000000       0x5c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_PCROPSelectionConfig
+                0x0000000000000000       0x38 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_PCROPConfig
+                0x0000000000000000       0x5c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_PCROP1Config
+                0x0000000000000000       0x5c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_RDPConfig
+                0x0000000000000000       0x30 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_UserConfig
+                0x0000000000000000       0x58 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_BootConfig
+                0x0000000000000000       0x3c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_BORConfig
+                0x0000000000000000       0x3c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_Launch
+                0x0000000000000000       0x30 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetUser
+                0x0000000000000000       0x1c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetWRP
+                0x0000000000000000       0x18 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetWRP1
+                0x0000000000000000       0x18 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetPCROP
+                0x0000000000000000       0x18 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetPCROP1
+                0x0000000000000000       0x18 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetRDP
+                0x0000000000000000       0x30 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_OB_GetBOR
+                0x0000000000000000       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_ITConfig
+                0x0000000000000000       0x40 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .text.FLASH_GetFlagStatus
+                0x0000000000000000       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000      0xa84 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x6b ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x3b ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x22 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x8e ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x51 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000      0x103 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x6a ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000      0x1df ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000       0x26 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000      0xe43 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x0000000000000000     0x8018 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
  .group         0x0000000000000000        0xc ./App/Middle/button/button-v1-1.o
  .group         0x0000000000000000        0xc ./App/Middle/button/button-v1-1.o
  .group         0x0000000000000000        0xc ./App/Middle/button/button-v1-1.o
@@ -1141,6 +1235,56 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0xe43 ./App/Middle/button/button-v1-1.o
  .debug_macro   0x0000000000000000     0x8018 ./App/Middle/button/button-v1-1.o
  .debug_macro   0x0000000000000000      0x644 ./App/Middle/button/button-v1-1.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .group         0x0000000000000000        0xc ./App/Middle/flash/flash.o
+ .text          0x0000000000000000        0x0 ./App/Middle/flash/flash.o
+ .data          0x0000000000000000        0x0 ./App/Middle/flash/flash.o
+ .bss           0x0000000000000000        0x0 ./App/Middle/flash/flash.o
+ .data.Arr      0x0000000000000000        0x4 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000      0xa84 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x6b ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x3b ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x22 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x8e ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x51 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000      0x103 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x6a ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000      0x1df ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x34 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000       0x26 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000      0xe43 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000     0x8018 ./App/Middle/flash/flash.o
+ .debug_macro   0x0000000000000000      0x416 ./App/Middle/flash/flash.o
  .group         0x0000000000000000        0xc ./App/Middle/gui/GUI.o
  .group         0x0000000000000000        0xc ./App/Middle/gui/GUI.o
  .group         0x0000000000000000        0xc ./App/Middle/gui/GUI.o
@@ -1186,9 +1330,6 @@ Discarded input sections
                 0x0000000000000000       0x4a ./App/Middle/gui/GUI.o
  .text.LCD_UpdateBtnUpDown
                 0x0000000000000000       0x28 ./App/Middle/gui/GUI.o
- .text.mypow    0x0000000000000000       0x38 ./App/Middle/gui/GUI.o
- .text.LCD_ShowNum
-                0x0000000000000000      0x108 ./App/Middle/gui/GUI.o
  .text.Gui_Drawbmp16
                 0x0000000000000000       0x90 ./App/Middle/gui/GUI.o
  .text.showimage
@@ -1206,6 +1347,21 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x26 ./App/Middle/gui/GUI.o
  .debug_macro   0x0000000000000000      0xe43 ./App/Middle/gui/GUI.o
  .debug_macro   0x0000000000000000     0x8018 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x1e ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x52 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x3c ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x34 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x16 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x43 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x34 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x10 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x58 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x71 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x1c ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000      0x12a ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000      0x341 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x35 ./App/Middle/gui/GUI.o
+ .debug_macro   0x0000000000000000       0x20 ./App/Middle/gui/GUI.o
  .group         0x0000000000000000        0xc ./App/Middle/lcd/lcd.o
  .group         0x0000000000000000        0xc ./App/Middle/lcd/lcd.o
  .group         0x0000000000000000        0xc ./App/Middle/lcd/lcd.o
@@ -1524,6 +1680,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./App/Middle/sensor/current-sensor/current-sensor.o
  .data          0x0000000000000000        0x0 ./App/Middle/sensor/current-sensor/current-sensor.o
  .bss           0x0000000000000000        0x0 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .text.currentSensorInit
+                0x0000000000000000       0x38 ./App/Middle/sensor/current-sensor/current-sensor.o
  .debug_macro   0x0000000000000000      0xa84 ./App/Middle/sensor/current-sensor/current-sensor.o
  .debug_macro   0x0000000000000000       0x6b ./App/Middle/sensor/current-sensor/current-sensor.o
  .debug_macro   0x0000000000000000       0x3b ./App/Middle/sensor/current-sensor/current-sensor.o
@@ -1637,6 +1795,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1e ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x3c ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x34 ./App/Middle/sequence-control/sequence-control.o
+ .debug_macro   0x0000000000000000      0x174 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x16 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x43 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x34 ./App/Middle/sequence-control/sequence-control.o
@@ -1646,6 +1805,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x1c ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000      0x12a ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000      0x341 ./App/Middle/sequence-control/sequence-control.o
+ .debug_macro   0x0000000000000000       0x10 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x35 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x20 ./App/Middle/sequence-control/sequence-control.o
  .debug_macro   0x0000000000000000       0x40 ./App/Middle/sequence-control/sequence-control.o
@@ -1954,11 +2114,10 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/main.o
+ .group         0x0000000000000000        0xc ./Src/main.o
  .text          0x0000000000000000        0x0 ./Src/main.o
  .data          0x0000000000000000        0x0 ./Src/main.o
  .bss           0x0000000000000000        0x0 ./Src/main.o
- .rodata.gImage_logo
-                0x0000000000000000    0x25800 ./Src/main.o
  .bss.valueKey  0x0000000000000000        0x1 ./Src/main.o
  .debug_macro   0x0000000000000000      0xa84 ./Src/main.o
  .debug_macro   0x0000000000000000       0x6b ./Src/main.o
@@ -2019,6 +2178,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x10 ./Src/main.o
  .debug_macro   0x0000000000000000       0x1c ./Src/main.o
  .debug_macro   0x0000000000000000       0x22 ./Src/main.o
+ .debug_macro   0x0000000000000000       0x40 ./Src/main.o
  .debug_macro   0x0000000000000000       0x40 ./Src/main.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
  .group         0x0000000000000000        0xc ./Src/syscalls.o
@@ -2243,6 +2403,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+ .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+ .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
  .text          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .data          0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .bss           0x0000000000000000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
@@ -2283,7 +2446,9 @@ LOAD ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
 LOAD ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_syscfg.o
 LOAD ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_tim.o
 LOAD ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
+LOAD ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
 LOAD ./App/Middle/button/button-v1-1.o
+LOAD ./App/Middle/flash/flash.o
 LOAD ./App/Middle/gui/GUI.o
 LOAD ./App/Middle/lcd/lcd.o
 LOAD ./App/Middle/led/led.o
@@ -2334,7 +2499,7 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000194                . = ALIGN (0x4)
 
-.text           0x0000000008000194     0x5e84
+.text           0x0000000008000194     0x65c0
                 0x0000000008000194                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000194       0x40 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -2381,406 +2546,460 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008000834                SPI_Init
  .text.SPI_Cmd  0x00000000080008bc       0x40 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
                 0x00000000080008bc                SPI_Cmd
+ .text.FLASH_SetLatency
+                0x00000000080008fc       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x00000000080008fc                FLASH_SetLatency
+ .text.FLASH_PrefetchBufferCmd
+                0x000000000800091c       0x3c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x000000000800091c                FLASH_PrefetchBufferCmd
+ .text.FLASH_Unlock
+                0x0000000008000958       0x30 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000958                FLASH_Unlock
+ .text.FLASH_Lock
+                0x0000000008000988       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000988                FLASH_Lock
+ .text.FLASH_EraseSector
+                0x00000000080009a8       0xc0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x00000000080009a8                FLASH_EraseSector
+ .text.FLASH_ProgramWord
+                0x0000000008000a68       0x68 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000a68                FLASH_ProgramWord
+ .text.FLASH_ClearFlag
+                0x0000000008000ad0       0x20 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000ad0                FLASH_ClearFlag
+ .text.FLASH_GetStatus
+                0x0000000008000af0       0x7c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000af0                FLASH_GetStatus
+ .text.FLASH_WaitForLastOperation
+                0x0000000008000b6c       0x30 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                0x0000000008000b6c                FLASH_WaitForLastOperation
  .text.buttonInit
-                0x00000000080008fc       0x78 ./App/Middle/button/button-v1-1.o
-                0x00000000080008fc                buttonInit
+                0x0000000008000b9c       0x78 ./App/Middle/button/button-v1-1.o
+                0x0000000008000b9c                buttonInit
  .text.dwCalculatorTime
-                0x0000000008000974       0x2e ./App/Middle/button/button-v1-1.o
- *fill*         0x00000000080009a2        0x2 
+                0x0000000008000c14       0x2e ./App/Middle/button/button-v1-1.o
+ *fill*         0x0000000008000c42        0x2 
  .text.processEventButton
-                0x00000000080009a4      0x254 ./App/Middle/button/button-v1-1.o
-                0x00000000080009a4                processEventButton
+                0x0000000008000c44      0x254 ./App/Middle/button/button-v1-1.o
+                0x0000000008000c44                processEventButton
  .text.GetEventButton
-                0x0000000008000bf8      0x8a8 ./App/Middle/button/button-v1-1.o
+                0x0000000008000e98      0x8a8 ./App/Middle/button/button-v1-1.o
  .text.checkEventButton
-                0x00000000080014a0       0x60 ./App/Middle/button/button-v1-1.o
+                0x0000000008001740       0x60 ./App/Middle/button/button-v1-1.o
+ .text.FLASH_Init
+                0x00000000080017a0       0x30 ./App/Middle/flash/flash.o
+                0x00000000080017a0                FLASH_Init
+ .text.FLASH_IsUserDataChange
+                0x00000000080017d0       0x2c ./App/Middle/flash/flash.o
+                0x00000000080017d0                FLASH_IsUserDataChange
+ .text.FLASH_RamToFlash
+                0x00000000080017fc       0x16 ./App/Middle/flash/flash.o
+                0x00000000080017fc                FLASH_RamToFlash
+ *fill*         0x0000000008001812        0x2 
+ .text.FLASH_GetUserData
+                0x0000000008001814       0x14 ./App/Middle/flash/flash.o
+                0x0000000008001814                FLASH_GetUserData
+ .text.UserData_FindAddress
+                0x0000000008001828       0x54 ./App/Middle/flash/flash.o
+ .text.UserData_Clear
+                0x000000000800187c       0x40 ./App/Middle/flash/flash.o
+ .text.UserData_Write
+                0x00000000080018bc       0xb4 ./App/Middle/flash/flash.o
+ .text.UserData_Read
+                0x0000000008001970       0x4c ./App/Middle/flash/flash.o
+ .text.UserData_Erase
+                0x00000000080019bc       0x18 ./App/Middle/flash/flash.o
  .text.GUI_DrawPoint
-                0x0000000008001500       0x2e ./App/Middle/gui/GUI.o
-                0x0000000008001500                GUI_DrawPoint
- *fill*         0x000000000800152e        0x2 
+                0x00000000080019d4       0x2e ./App/Middle/gui/GUI.o
+                0x00000000080019d4                GUI_DrawPoint
+ *fill*         0x0000000008001a02        0x2 
  .text.LCD_Fill
-                0x0000000008001530       0x98 ./App/Middle/gui/GUI.o
-                0x0000000008001530                LCD_Fill
+                0x0000000008001a04       0x98 ./App/Middle/gui/GUI.o
+                0x0000000008001a04                LCD_Fill
  .text.LCD_DrawLine
-                0x00000000080015c8      0x108 ./App/Middle/gui/GUI.o
-                0x00000000080015c8                LCD_DrawLine
+                0x0000000008001a9c      0x108 ./App/Middle/gui/GUI.o
+                0x0000000008001a9c                LCD_DrawLine
  .text.LCD_DrawRectangle
-                0x00000000080016d0       0x5c ./App/Middle/gui/GUI.o
-                0x00000000080016d0                LCD_DrawRectangle
+                0x0000000008001ba4       0x5c ./App/Middle/gui/GUI.o
+                0x0000000008001ba4                LCD_DrawRectangle
  .text._draw_circle_8
-                0x000000000800172c      0x116 ./App/Middle/gui/GUI.o
-                0x000000000800172c                _draw_circle_8
+                0x0000000008001c00      0x116 ./App/Middle/gui/GUI.o
+                0x0000000008001c00                _draw_circle_8
  .text.gui_circle
-                0x0000000008001842       0xd8 ./App/Middle/gui/GUI.o
-                0x0000000008001842                gui_circle
- .text._swap    0x000000000800191a       0x2a ./App/Middle/gui/GUI.o
+                0x0000000008001d16       0xd8 ./App/Middle/gui/GUI.o
+                0x0000000008001d16                gui_circle
+ .text._swap    0x0000000008001dee       0x2a ./App/Middle/gui/GUI.o
  .text.Fill_Triangel
-                0x0000000008001944      0x254 ./App/Middle/gui/GUI.o
-                0x0000000008001944                Fill_Triangel
+                0x0000000008001e18      0x254 ./App/Middle/gui/GUI.o
+                0x0000000008001e18                Fill_Triangel
  .text.LCD_ShowTitle
-                0x0000000008001b98       0x66 ./App/Middle/gui/GUI.o
-                0x0000000008001b98                LCD_ShowTitle
+                0x000000000800206c       0x66 ./App/Middle/gui/GUI.o
+                0x000000000800206c                LCD_ShowTitle
  .text.LCD_ShowOption
-                0x0000000008001bfe       0x86 ./App/Middle/gui/GUI.o
-                0x0000000008001bfe                LCD_ShowOption
+                0x00000000080020d2       0x86 ./App/Middle/gui/GUI.o
+                0x00000000080020d2                LCD_ShowOption
  .text.LCD_ShowChar
-                0x0000000008001c84      0x1b8 ./App/Middle/gui/GUI.o
-                0x0000000008001c84                LCD_ShowChar
+                0x0000000008002158      0x1b8 ./App/Middle/gui/GUI.o
+                0x0000000008002158                LCD_ShowChar
  .text.LCD_ShowString
-                0x0000000008001e3c       0x88 ./App/Middle/gui/GUI.o
-                0x0000000008001e3c                LCD_ShowString
+                0x0000000008002310       0x88 ./App/Middle/gui/GUI.o
+                0x0000000008002310                LCD_ShowString
  .text.LCD_ShowNumAndStr
-                0x0000000008001ec4      0x184 ./App/Middle/gui/GUI.o
-                0x0000000008001ec4                LCD_ShowNumAndStr
+                0x0000000008002398      0x184 ./App/Middle/gui/GUI.o
+                0x0000000008002398                LCD_ShowNumAndStr
  .text.LCD_ShowStrAndStr
-                0x0000000008002048       0xa4 ./App/Middle/gui/GUI.o
-                0x0000000008002048                LCD_ShowStrAndStr
+                0x000000000800251c       0xa4 ./App/Middle/gui/GUI.o
+                0x000000000800251c                LCD_ShowStrAndStr
  .text.LCD_ShowButton
-                0x00000000080020ec       0xe0 ./App/Middle/gui/GUI.o
-                0x00000000080020ec                LCD_ShowButton
+                0x00000000080025c0       0xe0 ./App/Middle/gui/GUI.o
+                0x00000000080025c0                LCD_ShowButton
  .text.LCD_ShowDevice
-                0x00000000080021cc      0x12c ./App/Middle/gui/GUI.o
-                0x00000000080021cc                LCD_ShowDevice
+                0x00000000080026a0      0x12c ./App/Middle/gui/GUI.o
+                0x00000000080026a0                LCD_ShowDevice
  .text.LCD_UpdateDeviceState
-                0x00000000080022f8       0x66 ./App/Middle/gui/GUI.o
-                0x00000000080022f8                LCD_UpdateDeviceState
+                0x00000000080027cc       0x66 ./App/Middle/gui/GUI.o
+                0x00000000080027cc                LCD_UpdateDeviceState
  .text.LCD_ShowEditNum
-                0x000000000800235e       0x8c ./App/Middle/gui/GUI.o
-                0x000000000800235e                LCD_ShowEditNum
- *fill*         0x00000000080023ea        0x2 
+                0x0000000008002832       0x8c ./App/Middle/gui/GUI.o
+                0x0000000008002832                LCD_ShowEditNum
+ *fill*         0x00000000080028be        0x2 
  .text.LCD_UpdateEditNum
-                0x00000000080023ec      0x134 ./App/Middle/gui/GUI.o
-                0x00000000080023ec                LCD_UpdateEditNum
+                0x00000000080028c0      0x134 ./App/Middle/gui/GUI.o
+                0x00000000080028c0                LCD_UpdateEditNum
  .text.LCD_ShowBtnUpDown
-                0x0000000008002520      0x128 ./App/Middle/gui/GUI.o
-                0x0000000008002520                LCD_ShowBtnUpDown
+                0x00000000080029f4      0x128 ./App/Middle/gui/GUI.o
+                0x00000000080029f4                LCD_ShowBtnUpDown
+ .text.mypow    0x0000000008002b1c       0x38 ./App/Middle/gui/GUI.o
+                0x0000000008002b1c                mypow
+ .text.LCD_ShowNum
+                0x0000000008002b54      0x108 ./App/Middle/gui/GUI.o
+                0x0000000008002b54                LCD_ShowNum
  .text.GUI_DrawFont16
-                0x0000000008002648      0x16c ./App/Middle/gui/GUI.o
-                0x0000000008002648                GUI_DrawFont16
+                0x0000000008002c5c      0x16c ./App/Middle/gui/GUI.o
+                0x0000000008002c5c                GUI_DrawFont16
  .text.GUI_DrawFont24
-                0x00000000080027b4      0x164 ./App/Middle/gui/GUI.o
-                0x00000000080027b4                GUI_DrawFont24
+                0x0000000008002dc8      0x164 ./App/Middle/gui/GUI.o
+                0x0000000008002dc8                GUI_DrawFont24
  .text.GUI_DrawFont32
-                0x0000000008002918      0x16c ./App/Middle/gui/GUI.o
-                0x0000000008002918                GUI_DrawFont32
+                0x0000000008002f2c      0x16c ./App/Middle/gui/GUI.o
+                0x0000000008002f2c                GUI_DrawFont32
  .text.Show_Str
-                0x0000000008002a84      0x1a4 ./App/Middle/gui/GUI.o
-                0x0000000008002a84                Show_Str
+                0x0000000008003098      0x1a4 ./App/Middle/gui/GUI.o
+                0x0000000008003098                Show_Str
  .text.Gui_StrCenterV2
-                0x0000000008002c28       0x6e ./App/Middle/gui/GUI.o
-                0x0000000008002c28                Gui_StrCenterV2
- *fill*         0x0000000008002c96        0x2 
+                0x000000000800323c       0x6e ./App/Middle/gui/GUI.o
+                0x000000000800323c                Gui_StrCenterV2
+ *fill*         0x00000000080032aa        0x2 
  .text.Gui_StrCenter
-                0x0000000008002c98       0x70 ./App/Middle/gui/GUI.o
-                0x0000000008002c98                Gui_StrCenter
+                0x00000000080032ac       0x70 ./App/Middle/gui/GUI.o
+                0x00000000080032ac                Gui_StrCenter
  .text.LCD_WR_REG
-                0x0000000008002d08       0x3c ./App/Middle/lcd/lcd.o
-                0x0000000008002d08                LCD_WR_REG
+                0x000000000800331c       0x3c ./App/Middle/lcd/lcd.o
+                0x000000000800331c                LCD_WR_REG
  .text.LCD_WR_DATA
-                0x0000000008002d44       0x3c ./App/Middle/lcd/lcd.o
-                0x0000000008002d44                LCD_WR_DATA
+                0x0000000008003358       0x3c ./App/Middle/lcd/lcd.o
+                0x0000000008003358                LCD_WR_DATA
  .text.LCD_WriteReg
-                0x0000000008002d80       0x2a ./App/Middle/lcd/lcd.o
-                0x0000000008002d80                LCD_WriteReg
- *fill*         0x0000000008002daa        0x2 
+                0x0000000008003394       0x2a ./App/Middle/lcd/lcd.o
+                0x0000000008003394                LCD_WriteReg
+ *fill*         0x00000000080033be        0x2 
  .text.LCD_WriteRAM_Prepare
-                0x0000000008002dac       0x18 ./App/Middle/lcd/lcd.o
-                0x0000000008002dac                LCD_WriteRAM_Prepare
+                0x00000000080033c0       0x18 ./App/Middle/lcd/lcd.o
+                0x00000000080033c0                LCD_WriteRAM_Prepare
  .text.Lcd_WriteData_16Bit
-                0x0000000008002dc4       0x4c ./App/Middle/lcd/lcd.o
-                0x0000000008002dc4                Lcd_WriteData_16Bit
+                0x00000000080033d8       0x4c ./App/Middle/lcd/lcd.o
+                0x00000000080033d8                Lcd_WriteData_16Bit
  .text.LCD_SetColorPoint
-                0x0000000008002e10       0x20 ./App/Middle/lcd/lcd.o
-                0x0000000008002e10                LCD_SetColorPoint
+                0x0000000008003424       0x20 ./App/Middle/lcd/lcd.o
+                0x0000000008003424                LCD_SetColorPoint
  .text.LCD_DrawPoint
-                0x0000000008002e30       0x34 ./App/Middle/lcd/lcd.o
-                0x0000000008002e30                LCD_DrawPoint
+                0x0000000008003444       0x34 ./App/Middle/lcd/lcd.o
+                0x0000000008003444                LCD_DrawPoint
  .text.LCD_Clear
-                0x0000000008002e64       0x80 ./App/Middle/lcd/lcd.o
-                0x0000000008002e64                LCD_Clear
+                0x0000000008003478       0x80 ./App/Middle/lcd/lcd.o
+                0x0000000008003478                LCD_Clear
  .text.LCD_ClearCursor
-                0x0000000008002ee4       0xb0 ./App/Middle/lcd/lcd.o
-                0x0000000008002ee4                LCD_ClearCursor
+                0x00000000080034f8       0xb0 ./App/Middle/lcd/lcd.o
+                0x00000000080034f8                LCD_ClearCursor
  .text.LCD_GPIOInit
-                0x0000000008002f94       0x3c ./App/Middle/lcd/lcd.o
-                0x0000000008002f94                LCD_GPIOInit
+                0x00000000080035a8       0x3c ./App/Middle/lcd/lcd.o
+                0x00000000080035a8                LCD_GPIOInit
  .text.LCD_RESET
-                0x0000000008002fd0       0x24 ./App/Middle/lcd/lcd.o
-                0x0000000008002fd0                LCD_RESET
+                0x00000000080035e4       0x24 ./App/Middle/lcd/lcd.o
+                0x00000000080035e4                LCD_RESET
  .text.LCD_Init
-                0x0000000008002ff4      0x254 ./App/Middle/lcd/lcd.o
-                0x0000000008002ff4                LCD_Init
+                0x0000000008003608      0x254 ./App/Middle/lcd/lcd.o
+                0x0000000008003608                LCD_Init
  .text.LCD_SetWindows
-                0x0000000008003248       0xa8 ./App/Middle/lcd/lcd.o
-                0x0000000008003248                LCD_SetWindows
+                0x000000000800385c       0xa8 ./App/Middle/lcd/lcd.o
+                0x000000000800385c                LCD_SetWindows
  .text.LCD_SetCursor
-                0x00000000080032f0       0x24 ./App/Middle/lcd/lcd.o
-                0x00000000080032f0                LCD_SetCursor
+                0x0000000008003904       0x24 ./App/Middle/lcd/lcd.o
+                0x0000000008003904                LCD_SetCursor
  .text.LCD_direction
-                0x0000000008003314       0xa8 ./App/Middle/lcd/lcd.o
-                0x0000000008003314                LCD_direction
+                0x0000000008003928       0xa8 ./App/Middle/lcd/lcd.o
+                0x0000000008003928                LCD_direction
  .text.controlLed
-                0x00000000080033bc       0x98 ./App/Middle/led/led.o
-                0x00000000080033bc                controlLed
- .text.ledInit  0x0000000008003454       0x60 ./App/Middle/led/led.o
-                0x0000000008003454                ledInit
+                0x00000000080039d0       0x98 ./App/Middle/led/led.o
+                0x00000000080039d0                controlLed
+ .text.ledInit  0x0000000008003a68       0x60 ./App/Middle/led/led.o
+                0x0000000008003a68                ledInit
  .text.updateDataStopHandleCallBack
-                0x00000000080034b4       0x20 ./App/Middle/menu/menu.o
-                0x00000000080034b4                updateDataStopHandleCallBack
- .text.HMI      0x00000000080034d4      0x2b0 ./App/Middle/menu/menu.o
-                0x00000000080034d4                HMI
+                0x0000000008003ac8       0x20 ./App/Middle/menu/menu.o
+                0x0000000008003ac8                updateDataStopHandleCallBack
+ .text.HMI      0x0000000008003ae8      0x374 ./App/Middle/menu/menu.o
+                0x0000000008003ae8                HMI
  .text.processMainMenu
-                0x0000000008003784      0x174 ./App/Middle/menu/menu.o
-                0x0000000008003784                processMainMenu
+                0x0000000008003e5c      0x174 ./App/Middle/menu/menu.o
+                0x0000000008003e5c                processMainMenu
  .text.getOptionMainMenu
-                0x00000000080038f8       0x30 ./App/Middle/menu/menu.o
-                0x00000000080038f8                getOptionMainMenu
+                0x0000000008003fd0       0x30 ./App/Middle/menu/menu.o
+                0x0000000008003fd0                getOptionMainMenu
  .text.processInfomationOption
-                0x0000000008003928       0xe0 ./App/Middle/menu/menu.o
-                0x0000000008003928                processInfomationOption
+                0x0000000008004000       0xe0 ./App/Middle/menu/menu.o
+                0x0000000008004000                processInfomationOption
  .text.processPrepareOption
-                0x0000000008003a08       0x5c ./App/Middle/menu/menu.o
-                0x0000000008003a08                processPrepareOption
+                0x00000000080040e0       0x5c ./App/Middle/menu/menu.o
+                0x00000000080040e0                processPrepareOption
  .text.processSetUpAndRunOption
-                0x0000000008003a64       0x2c ./App/Middle/menu/menu.o
-                0x0000000008003a64                processSetUpAndRunOption
+                0x000000000800413c       0x2c ./App/Middle/menu/menu.o
+                0x000000000800413c                processSetUpAndRunOption
  .text.processSleepOption
-                0x0000000008003a90       0x30 ./App/Middle/menu/menu.o
-                0x0000000008003a90                processSleepOption
+                0x0000000008004168       0x30 ./App/Middle/menu/menu.o
+                0x0000000008004168                processSleepOption
  .text.getChooseSetAndRun
-                0x0000000008003ac0     0x10a4 ./App/Middle/menu/menu.o
-                0x0000000008003ac0                getChooseSetAndRun
+                0x0000000008004198     0x10a4 ./App/Middle/menu/menu.o
+                0x0000000008004198                getChooseSetAndRun
  .text.getChooseMainMenu
-                0x0000000008004b64      0x2cc ./App/Middle/menu/menu.o
-                0x0000000008004b64                getChooseMainMenu
+                0x000000000800523c      0x2cc ./App/Middle/menu/menu.o
+                0x000000000800523c                getChooseMainMenu
  .text.getChooseInformation
-                0x0000000008004e30      0x270 ./App/Middle/menu/menu.o
-                0x0000000008004e30                getChooseInformation
+                0x0000000008005508      0x270 ./App/Middle/menu/menu.o
+                0x0000000008005508                getChooseInformation
  .text.getChoosePrepare
-                0x00000000080050a0      0x40c ./App/Middle/menu/menu.o
-                0x00000000080050a0                getChoosePrepare
+                0x0000000008005778      0x40c ./App/Middle/menu/menu.o
+                0x0000000008005778                getChoosePrepare
  .text.NVIC_SetPriority
-                0x00000000080054ac       0x54 ./App/Middle/rtos/timer.o
+                0x0000000008005b84       0x54 ./App/Middle/rtos/timer.o
  .text.SysTick_Config
-                0x0000000008005500       0x44 ./App/Middle/rtos/timer.o
+                0x0000000008005bd8       0x44 ./App/Middle/rtos/timer.o
  .text.TimerInit
-                0x0000000008005544       0x44 ./App/Middle/rtos/timer.o
-                0x0000000008005544                TimerInit
+                0x0000000008005c1c       0x44 ./App/Middle/rtos/timer.o
+                0x0000000008005c1c                TimerInit
  .text.GetMilSecTick
-                0x0000000008005588       0x18 ./App/Middle/rtos/timer.o
-                0x0000000008005588                GetMilSecTick
+                0x0000000008005c60       0x18 ./App/Middle/rtos/timer.o
+                0x0000000008005c60                GetMilSecTick
  .text.SysTick_Handler
-                0x00000000080055a0       0x1c ./App/Middle/rtos/timer.o
-                0x00000000080055a0                SysTick_Handler
- .text.currentSensorInit
-                0x00000000080055bc       0x38 ./App/Middle/sensor/current-sensor/current-sensor.o
-                0x00000000080055bc                currentSensorInit
+                0x0000000008005c78       0x1c ./App/Middle/rtos/timer.o
+                0x0000000008005c78                SysTick_Handler
  .text.currentSensorScan
-                0x00000000080055f4       0x34 ./App/Middle/sensor/current-sensor/current-sensor.o
-                0x00000000080055f4                currentSensorScan
+                0x0000000008005c94       0x34 ./App/Middle/sensor/current-sensor/current-sensor.o
+                0x0000000008005c94                currentSensorScan
  .text.proximitySensorInit
-                0x0000000008005628       0x38 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
-                0x0000000008005628                proximitySensorInit
+                0x0000000008005cc8       0x38 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+                0x0000000008005cc8                proximitySensorInit
  .text.proximitySensorScan
-                0x0000000008005660       0x78 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
-                0x0000000008005660                proximitySensorScan
+                0x0000000008005d00       0x78 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+                0x0000000008005d00                proximitySensorScan
  .text.updateDataRunHandleCallBack
-                0x00000000080056d8       0x20 ./App/Middle/sequence-control/sequence-control.o
-                0x00000000080056d8                updateDataRunHandleCallBack
+                0x0000000008005d78       0x20 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000008005d78                updateDataRunHandleCallBack
  .text.setCountValue
-                0x00000000080056f8       0x2c ./App/Middle/sequence-control/sequence-control.o
-                0x00000000080056f8                setCountValue
+                0x0000000008005d98       0x2c ./App/Middle/sequence-control/sequence-control.o
+                0x0000000008005d98                setCountValue
  .text.byProcessSequenceControl
-                0x0000000008005724      0x258 ./App/Middle/sequence-control/sequence-control.o
-                0x0000000008005724                byProcessSequenceControl
+                0x0000000008005dc4      0x278 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000008005dc4                byProcessSequenceControl
  .text.SPI_WriteByte
-                0x000000000800597c       0x48 ./App/Middle/spi/SPI.o
-                0x000000000800597c                SPI_WriteByte
+                0x000000000800603c       0x48 ./App/Middle/spi/SPI.o
+                0x000000000800603c                SPI_WriteByte
  .text.SPI1_Init
-                0x00000000080059c4       0xb4 ./App/Middle/spi/SPI.o
-                0x00000000080059c4                SPI1_Init
- .text.memsetl  0x0000000008005a78       0x34 ./App/Middle/utilities/utilities.o
-                0x0000000008005a78                memsetl
+                0x0000000008006084       0xb4 ./App/Middle/spi/SPI.o
+                0x0000000008006084                SPI1_Init
+ .text.memsetl  0x0000000008006138       0x34 ./App/Middle/utilities/utilities.o
+                0x0000000008006138                memsetl
  .text.valveInit
-                0x0000000008005aac       0x4c ./App/Middle/valve/valve.o
-                0x0000000008005aac                valveInit
+                0x000000000800616c       0x4c ./App/Middle/valve/valve.o
+                0x000000000800616c                valveInit
  .text.valveControl
-                0x0000000008005af8       0x80 ./App/Middle/valve/valve.o
-                0x0000000008005af8                valveControl
+                0x00000000080061b8       0x80 ./App/Middle/valve/valve.o
+                0x00000000080061b8                valveControl
  .text.GetStateValve
-                0x0000000008005b78       0x18 ./App/Middle/valve/valve.o
-                0x0000000008005b78                GetStateValve
+                0x0000000008006238       0x18 ./App/Middle/valve/valve.o
+                0x0000000008006238                GetStateValve
  .text.dwCalculatorTime
-                0x0000000008005b90       0x2e ./App/SYSTEM/delay/delay.o
-                0x0000000008005b90                dwCalculatorTime
+                0x0000000008006250       0x2e ./App/SYSTEM/delay/delay.o
+                0x0000000008006250                dwCalculatorTime
  .text.delay_ms
-                0x0000000008005bbe       0x32 ./App/SYSTEM/delay/delay.o
-                0x0000000008005bbe                delay_ms
- .text.main     0x0000000008005bf0       0x34 ./Src/main.o
-                0x0000000008005bf0                main
+                0x000000000800627e       0x32 ./App/SYSTEM/delay/delay.o
+                0x000000000800627e                delay_ms
+ .text.main     0x00000000080062b0       0x34 ./Src/main.o
+                0x00000000080062b0                main
  .text.appInitCommon
-                0x0000000008005c24       0x48 ./Src/main.o
+                0x00000000080062e4       0x74 ./Src/main.o
  .text.setStateApp
-                0x0000000008005c6c       0x20 ./Src/main.o
+                0x0000000008006358       0x20 ./Src/main.o
  .text.getStateApp
-                0x0000000008005c8c       0x18 ./Src/main.o
+                0x0000000008006378       0x18 ./Src/main.o
  .text.UpDateData
-                0x0000000008005ca4       0x5c ./Src/main.o
+                0x0000000008006390       0x7c ./Src/main.o
  .text.appStateManager
-                0x0000000008005d00      0x1f0 ./Src/main.o
- .text.proKey   0x0000000008005ef0       0x64 ./Src/main.o
+                0x000000000800640c      0x200 ./Src/main.o
+ .text.proKey   0x000000000800660c       0x64 ./Src/main.o
  .text.Reset_Handler
-                0x0000000008005f54       0x50 ./Startup/startup_stm32f401retx.o
-                0x0000000008005f54                Reset_Handler
+                0x0000000008006670       0x50 ./Startup/startup_stm32f401retx.o
+                0x0000000008006670                Reset_Handler
  .text.Default_Handler
-                0x0000000008005fa4        0x2 ./Startup/startup_stm32f401retx.o
-                0x0000000008005fa4                EXTI2_IRQHandler
-                0x0000000008005fa4                DebugMon_Handler
-                0x0000000008005fa4                SPI4_IRQHandler
-                0x0000000008005fa4                TIM1_CC_IRQHandler
-                0x0000000008005fa4                HardFault_Handler
-                0x0000000008005fa4                SDIO_IRQHandler
-                0x0000000008005fa4                TAMP_STAMP_IRQHandler
-                0x0000000008005fa4                PendSV_Handler
-                0x0000000008005fa4                NMI_Handler
-                0x0000000008005fa4                EXTI3_IRQHandler
-                0x0000000008005fa4                TIM1_UP_TIM10_IRQHandler
-                0x0000000008005fa4                I2C3_ER_IRQHandler
-                0x0000000008005fa4                EXTI18_OTG_FS_WKUP_IRQHandler
-                0x0000000008005fa4                EXTI0_IRQHandler
-                0x0000000008005fa4                I2C2_EV_IRQHandler
-                0x0000000008005fa4                FPU_IRQHandler
-                0x0000000008005fa4                UsageFault_Handler
-                0x0000000008005fa4                SPI1_IRQHandler
-                0x0000000008005fa4                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008005fa4                USART6_IRQHandler
-                0x0000000008005fa4                TIM4_IRQHandler
-                0x0000000008005fa4                I2C1_EV_IRQHandler
-                0x0000000008005fa4                TIM3_IRQHandler
-                0x0000000008005fa4                RCC_IRQHandler
-                0x0000000008005fa4                Default_Handler
-                0x0000000008005fa4                EXTI15_10_IRQHandler
-                0x0000000008005fa4                ADC_IRQHandler
-                0x0000000008005fa4                TIM5_IRQHandler
-                0x0000000008005fa4                I2C3_EV_IRQHandler
-                0x0000000008005fa4                EXTI9_5_IRQHandler
-                0x0000000008005fa4                SPI2_IRQHandler
-                0x0000000008005fa4                MemManage_Handler
-                0x0000000008005fa4                SVC_Handler
-                0x0000000008005fa4                EXTI4_IRQHandler
-                0x0000000008005fa4                EXTI22_RTC_WKUP_IRQHandler
-                0x0000000008005fa4                TIM2_IRQHandler
-                0x0000000008005fa4                EXTI16_PVD_IRQHandler
-                0x0000000008005fa4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008005fa4                EXTI1_IRQHandler
-                0x0000000008005fa4                EXTI17_RTC_Alarm_IRQHandler
-                0x0000000008005fa4                USART2_IRQHandler
-                0x0000000008005fa4                I2C2_ER_IRQHandler
-                0x0000000008005fa4                FLASH_IRQHandler
-                0x0000000008005fa4                BusFault_Handler
-                0x0000000008005fa4                USART1_IRQHandler
-                0x0000000008005fa4                OTG_FS_IRQHandler
-                0x0000000008005fa4                SPI3_IRQHandler
-                0x0000000008005fa4                I2C1_ER_IRQHandler
- *fill*         0x0000000008005fa6        0x2 
+                0x00000000080066c0        0x2 ./Startup/startup_stm32f401retx.o
+                0x00000000080066c0                EXTI2_IRQHandler
+                0x00000000080066c0                DebugMon_Handler
+                0x00000000080066c0                SPI4_IRQHandler
+                0x00000000080066c0                TIM1_CC_IRQHandler
+                0x00000000080066c0                HardFault_Handler
+                0x00000000080066c0                SDIO_IRQHandler
+                0x00000000080066c0                TAMP_STAMP_IRQHandler
+                0x00000000080066c0                PendSV_Handler
+                0x00000000080066c0                NMI_Handler
+                0x00000000080066c0                EXTI3_IRQHandler
+                0x00000000080066c0                TIM1_UP_TIM10_IRQHandler
+                0x00000000080066c0                I2C3_ER_IRQHandler
+                0x00000000080066c0                EXTI18_OTG_FS_WKUP_IRQHandler
+                0x00000000080066c0                EXTI0_IRQHandler
+                0x00000000080066c0                I2C2_EV_IRQHandler
+                0x00000000080066c0                FPU_IRQHandler
+                0x00000000080066c0                UsageFault_Handler
+                0x00000000080066c0                SPI1_IRQHandler
+                0x00000000080066c0                TIM1_BRK_TIM9_IRQHandler
+                0x00000000080066c0                USART6_IRQHandler
+                0x00000000080066c0                TIM4_IRQHandler
+                0x00000000080066c0                I2C1_EV_IRQHandler
+                0x00000000080066c0                TIM3_IRQHandler
+                0x00000000080066c0                RCC_IRQHandler
+                0x00000000080066c0                Default_Handler
+                0x00000000080066c0                EXTI15_10_IRQHandler
+                0x00000000080066c0                ADC_IRQHandler
+                0x00000000080066c0                TIM5_IRQHandler
+                0x00000000080066c0                I2C3_EV_IRQHandler
+                0x00000000080066c0                EXTI9_5_IRQHandler
+                0x00000000080066c0                SPI2_IRQHandler
+                0x00000000080066c0                MemManage_Handler
+                0x00000000080066c0                SVC_Handler
+                0x00000000080066c0                EXTI4_IRQHandler
+                0x00000000080066c0                EXTI22_RTC_WKUP_IRQHandler
+                0x00000000080066c0                TIM2_IRQHandler
+                0x00000000080066c0                EXTI16_PVD_IRQHandler
+                0x00000000080066c0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x00000000080066c0                EXTI1_IRQHandler
+                0x00000000080066c0                EXTI17_RTC_Alarm_IRQHandler
+                0x00000000080066c0                USART2_IRQHandler
+                0x00000000080066c0                I2C2_ER_IRQHandler
+                0x00000000080066c0                FLASH_IRQHandler
+                0x00000000080066c0                BusFault_Handler
+                0x00000000080066c0                USART1_IRQHandler
+                0x00000000080066c0                OTG_FS_IRQHandler
+                0x00000000080066c0                SPI3_IRQHandler
+                0x00000000080066c0                I2C1_ER_IRQHandler
+ *fill*         0x00000000080066c2        0x2 
  .text.__libc_init_array
-                0x0000000008005fa8       0x48 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
-                0x0000000008005fa8                __libc_init_array
- .text.memset   0x0000000008005ff0       0x10 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                0x0000000008005ff0                memset
+                0x00000000080066c4       0x48 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x00000000080066c4                __libc_init_array
+ .text.memcmp   0x000000000800670c       0x20 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+                0x000000000800670c                memcmp
+ .text.memset   0x000000000800672c       0x10 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x000000000800672c                memset
  *(.glue_7)
- .glue_7        0x0000000008006000        0x0 linker stubs
+ .glue_7        0x000000000800673c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008006000        0x0 linker stubs
+ .glue_7t       0x000000000800673c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008006000        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x000000000800673c        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000008006000        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000008006000                _init
- .init          0x0000000008006004        0x8 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x000000000800673c        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800673c                _init
+ .init          0x0000000008006740        0x8 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x000000000800600c        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x000000000800600c                _fini
- .fini          0x0000000008006010        0x8 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0000000008006018                . = ALIGN (0x4)
-                0x0000000008006018                _etext = .
+ .fini          0x0000000008006748        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008006748                _fini
+ .fini          0x000000000800674c        0x8 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008006754                . = ALIGN (0x4)
+                0x0000000008006754                _etext = .
 
-.vfp11_veneer   0x0000000008006018        0x0
- .vfp11_veneer  0x0000000008006018        0x0 linker stubs
+.vfp11_veneer   0x0000000008006754        0x0
+ .vfp11_veneer  0x0000000008006754        0x0 linker stubs
 
-.v4_bx          0x0000000008006018        0x0
- .v4_bx         0x0000000008006018        0x0 linker stubs
+.v4_bx          0x0000000008006754        0x0
+ .v4_bx         0x0000000008006754        0x0 linker stubs
 
-.iplt           0x0000000008006018        0x0
- .iplt          0x0000000008006018        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000008006754        0x0
+ .iplt          0x0000000008006754        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x0000000008006018     0x17a4
-                0x0000000008006018                . = ALIGN (0x4)
+.rodata         0x0000000008006754     0x17a8
+                0x0000000008006754                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008006018       0xde ./App/Middle/menu/menu.o
- *fill*         0x00000000080060f6        0x2 
- .rodata        0x00000000080060f8       0x14 ./Src/main.o
+ .rodata        0x0000000008006754       0xe2 ./App/Middle/menu/menu.o
+ *fill*         0x0000000008006836        0x2 
+ .rodata        0x0000000008006838       0x14 ./Src/main.o
  *(.rodata*)
  .rodata.asc2_1206
-                0x000000000800610c      0x474 ./App/Middle/gui/GUI.o
-                0x000000000800610c                asc2_1206
+                0x000000000800684c      0x474 ./App/Middle/gui/GUI.o
+                0x000000000800684c                asc2_1206
  .rodata.asc2_1608
-                0x0000000008006580      0x5f0 ./App/Middle/gui/GUI.o
-                0x0000000008006580                asc2_1608
+                0x0000000008006cc0      0x5f0 ./App/Middle/gui/GUI.o
+                0x0000000008006cc0                asc2_1608
  .rodata.tfont16
-                0x0000000008006b70      0x83c ./App/Middle/gui/GUI.o
-                0x0000000008006b70                tfont16
+                0x00000000080072b0      0x83c ./App/Middle/gui/GUI.o
+                0x00000000080072b0                tfont16
  .rodata.tfont24
-                0x00000000080073ac      0x206 ./App/Middle/gui/GUI.o
-                0x00000000080073ac                tfont24
- *fill*         0x00000000080075b2        0x2 
+                0x0000000008007aec      0x206 ./App/Middle/gui/GUI.o
+                0x0000000008007aec                tfont24
+ *fill*         0x0000000008007cf2        0x2 
  .rodata.tfont32
-                0x00000000080075b4      0x208 ./App/Middle/gui/GUI.o
-                0x00000000080075b4                tfont32
-                0x00000000080077bc                . = ALIGN (0x4)
+                0x0000000008007cf4      0x208 ./App/Middle/gui/GUI.o
+                0x0000000008007cf4                tfont32
+                0x0000000008007efc                . = ALIGN (0x4)
 
-.rel.dyn        0x00000000080077bc        0x0
- .rel.iplt      0x00000000080077bc        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0000000008007efc        0x0
+ .rel.iplt      0x0000000008007efc        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ARM.extab      0x00000000080077bc        0x0
-                0x00000000080077bc                . = ALIGN (0x4)
+.ARM.extab      0x0000000008007efc        0x0
+                0x0000000008007efc                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080077bc                . = ALIGN (0x4)
+                0x0000000008007efc                . = ALIGN (0x4)
 
-.ARM            0x00000000080077bc        0x0
-                0x00000000080077bc                . = ALIGN (0x4)
-                0x00000000080077bc                __exidx_start = .
+.ARM            0x0000000008007efc        0x0
+                0x0000000008007efc                . = ALIGN (0x4)
+                0x0000000008007efc                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080077bc                __exidx_end = .
-                0x00000000080077bc                . = ALIGN (0x4)
+                0x0000000008007efc                __exidx_end = .
+                0x0000000008007efc                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080077bc        0x0
-                0x00000000080077bc                . = ALIGN (0x4)
-                0x00000000080077bc                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008007efc        0x0
+                0x0000000008007efc                . = ALIGN (0x4)
+                0x0000000008007efc                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080077bc                PROVIDE (__preinit_array_end = .)
-                0x00000000080077bc                . = ALIGN (0x4)
+                0x0000000008007efc                PROVIDE (__preinit_array_end = .)
+                0x0000000008007efc                . = ALIGN (0x4)
 
-.init_array     0x00000000080077bc        0x4
-                0x00000000080077bc                . = ALIGN (0x4)
-                0x00000000080077bc                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008007efc        0x4
+                0x0000000008007efc                . = ALIGN (0x4)
+                0x0000000008007efc                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080077bc        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x00000000080077c0                PROVIDE (__init_array_end = .)
-                0x00000000080077c0                . = ALIGN (0x4)
+ .init_array    0x0000000008007efc        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000008007f00                PROVIDE (__init_array_end = .)
+                0x0000000008007f00                . = ALIGN (0x4)
 
-.fini_array     0x00000000080077c0        0x4
-                0x00000000080077c0                . = ALIGN (0x4)
+.fini_array     0x0000000008007f00        0x4
+                0x0000000008007f00                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080077c0        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000008007f00        0x4 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080077c4                . = ALIGN (0x4)
-                0x00000000080077c4                _sidata = LOADADDR (.data)
+                0x0000000008007f04                . = ALIGN (0x4)
+                0x0000000008007f04                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x90 load address 0x00000000080077c4
+.data           0x0000000020000000       0x94 load address 0x0000000008007f04
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2793,144 +3012,152 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000020000004                AHBPrescTable
  .data.APBAHBPrescTable
                 0x0000000020000014       0x10 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
+ .data.UserDataAddress
+                0x0000000020000024        0x4 ./App/Middle/flash/flash.o
  .data.BACK_COLOR
-                0x0000000020000024        0x2 ./App/Middle/lcd/lcd.o
-                0x0000000020000024                BACK_COLOR
- *fill*         0x0000000020000026        0x2 
+                0x0000000020000028        0x2 ./App/Middle/lcd/lcd.o
+                0x0000000020000028                BACK_COLOR
+ *fill*         0x000000002000002a        0x2 
  .data.pMenuMain
-                0x0000000020000028       0x64 ./App/Middle/menu/menu.o
+                0x000000002000002c       0x64 ./App/Middle/menu/menu.o
  .data.DeviceStateTemp_e.0
-                0x000000002000008c        0x1 ./Src/main.o
+                0x0000000020000090        0x1 ./Src/main.o
  *(.RamFunc)
  *(.RamFunc*)
-                0x0000000020000090                . = ALIGN (0x4)
- *fill*         0x000000002000008d        0x3 
-                0x0000000020000090                _edata = .
+                0x0000000020000094                . = ALIGN (0x4)
+ *fill*         0x0000000020000091        0x3 
+                0x0000000020000094                _edata = .
 
-.igot.plt       0x0000000020000090        0x0 load address 0x0000000008007854
- .igot.plt      0x0000000020000090        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x0000000020000090                . = ALIGN (0x4)
+.igot.plt       0x0000000020000094        0x0 load address 0x0000000008007f98
+ .igot.plt      0x0000000020000094        0x0 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000020000094                . = ALIGN (0x4)
 
-.bss            0x0000000020000090      0x29c load address 0x0000000008007854
-                0x0000000020000090                _sbss = .
-                0x0000000020000090                __bss_start__ = _sbss
+.bss            0x0000000020000094      0x2b4 load address 0x0000000008007f98
+                0x0000000020000094                _sbss = .
+                0x0000000020000094                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000090       0x1c c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x0000000020000094       0x1c c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
- .bss.button1   0x00000000200000ac       0x10 ./App/Middle/button/button-v1-1.o
- .bss.button2   0x00000000200000bc       0x10 ./App/Middle/button/button-v1-1.o
- .bss.button3   0x00000000200000cc       0x10 ./App/Middle/button/button-v1-1.o
- .bss.button4   0x00000000200000dc       0x10 ./App/Middle/button/button-v1-1.o
- .bss.button5   0x00000000200000ec       0x10 ./App/Middle/button/button-v1-1.o
- .bss.lcddev    0x00000000200000fc        0xe ./App/Middle/lcd/lcd.o
-                0x00000000200000fc                lcddev
+ .bss.button1   0x00000000200000b0       0x10 ./App/Middle/button/button-v1-1.o
+ .bss.button2   0x00000000200000c0       0x10 ./App/Middle/button/button-v1-1.o
+ .bss.button3   0x00000000200000d0       0x10 ./App/Middle/button/button-v1-1.o
+ .bss.button4   0x00000000200000e0       0x10 ./App/Middle/button/button-v1-1.o
+ .bss.button5   0x00000000200000f0       0x10 ./App/Middle/button/button-v1-1.o
+ .bss.UserData  0x0000000020000100       0x10 ./App/Middle/flash/flash.o
+ .bss.lcddev    0x0000000020000110        0xe ./App/Middle/lcd/lcd.o
+                0x0000000020000110                lcddev
  .bss.POINT_COLOR
-                0x000000002000010a        0x2 ./App/Middle/lcd/lcd.o
-                0x000000002000010a                POINT_COLOR
+                0x000000002000011e        0x2 ./App/Middle/lcd/lcd.o
+                0x000000002000011e                POINT_COLOR
  .bss.pUpdateDataStopHandle
-                0x000000002000010c        0x4 ./App/Middle/menu/menu.o
- .bss.pData     0x0000000020000110       0x14 ./App/Middle/menu/menu.o
- .bss.action    0x0000000020000124        0x1 ./App/Middle/menu/menu.o
-                0x0000000020000124                action
- .bss.option    0x0000000020000125        0x1 ./App/Middle/menu/menu.o
- .bss.Flag.16   0x0000000020000126        0x1 ./App/Middle/menu/menu.o
- *fill*         0x0000000020000127        0x1 
+                0x0000000020000120        0x4 ./App/Middle/menu/menu.o
+ .bss.pData     0x0000000020000124       0x14 ./App/Middle/menu/menu.o
+ .bss.action    0x0000000020000138        0x1 ./App/Middle/menu/menu.o
+                0x0000000020000138                action
+ .bss.option    0x0000000020000139        0x1 ./App/Middle/menu/menu.o
+ .bss.Flag.18   0x000000002000013a        0x1 ./App/Middle/menu/menu.o
+ *fill*         0x000000002000013b        0x1 
+ .bss.lastRatioProcess.17
+                0x000000002000013c        0x2 ./App/Middle/menu/menu.o
+ .bss.XeUpdateBoxProcess.16
+                0x000000002000013e        0x2 ./App/Middle/menu/menu.o
  .bss.dwCountMaxTemp.15
-                0x0000000020000128        0x4 ./App/Middle/menu/menu.o
+                0x0000000020000140        0x4 ./App/Middle/menu/menu.o
  .bss.dwTimeHoldTemp.14
-                0x000000002000012c        0x4 ./App/Middle/menu/menu.o
- .bss.flag.13   0x0000000020000130        0x1 ./App/Middle/menu/menu.o
- .bss.Row.12    0x0000000020000131        0x1 ./App/Middle/menu/menu.o
- *fill*         0x0000000020000132        0x2 
+                0x0000000020000144        0x4 ./App/Middle/menu/menu.o
+ .bss.flag.13   0x0000000020000148        0x1 ./App/Middle/menu/menu.o
+ .bss.Row.12    0x0000000020000149        0x1 ./App/Middle/menu/menu.o
+ *fill*         0x000000002000014a        0x2 
  .bss.cursorOfOptionBox.11
-                0x0000000020000134       0x14 ./App/Middle/menu/menu.o
+                0x000000002000014c       0x14 ./App/Middle/menu/menu.o
  .bss.byFlag.10
-                0x0000000020000148        0x1 ./App/Middle/menu/menu.o
+                0x0000000020000160        0x1 ./App/Middle/menu/menu.o
  .bss.byRowTemp.9
-                0x0000000020000149        0x1 ./App/Middle/menu/menu.o
- .bss.flag.8    0x000000002000014a        0x1 ./App/Middle/menu/menu.o
- .bss.Row.7     0x000000002000014b        0x1 ./App/Middle/menu/menu.o
- .bss.flag.6    0x000000002000014c        0x1 ./App/Middle/menu/menu.o
- *fill*         0x000000002000014d        0x1 
+                0x0000000020000161        0x1 ./App/Middle/menu/menu.o
+ .bss.flag.8    0x0000000020000162        0x1 ./App/Middle/menu/menu.o
+ .bss.Row.7     0x0000000020000163        0x1 ./App/Middle/menu/menu.o
+ .bss.flag.6    0x0000000020000164        0x1 ./App/Middle/menu/menu.o
+ *fill*         0x0000000020000165        0x1 
  .bss.xCurrent.5
-                0x000000002000014e        0x2 ./App/Middle/menu/menu.o
+                0x0000000020000166        0x2 ./App/Middle/menu/menu.o
  .bss.xProHigh.4
-                0x0000000020000150        0x2 ./App/Middle/menu/menu.o
+                0x0000000020000168        0x2 ./App/Middle/menu/menu.o
  .bss.xProLow.3
-                0x0000000020000152        0x2 ./App/Middle/menu/menu.o
+                0x000000002000016a        0x2 ./App/Middle/menu/menu.o
  .bss.stateCurrentSS.2
-                0x0000000020000154        0x1 ./App/Middle/menu/menu.o
+                0x000000002000016c        0x1 ./App/Middle/menu/menu.o
  .bss.eventProximity.1
-                0x0000000020000155        0x1 ./App/Middle/menu/menu.o
- .bss.Row.0     0x0000000020000156        0x1 ./App/Middle/menu/menu.o
- *fill*         0x0000000020000157        0x1 
+                0x000000002000016d        0x1 ./App/Middle/menu/menu.o
+ .bss.Row.0     0x000000002000016e        0x1 ./App/Middle/menu/menu.o
+ *fill*         0x000000002000016f        0x1 
  .bss.g_pTimerHandle
-                0x0000000020000158      0x180 ./App/Middle/rtos/timer.o
+                0x0000000020000170      0x180 ./App/Middle/rtos/timer.o
  .bss.g_wMilSecTickTimer
-                0x00000000200002d8        0x4 ./App/Middle/rtos/timer.o
+                0x00000000200002f0        0x4 ./App/Middle/rtos/timer.o
  .bss.pUpdateRunDataHandle
-                0x00000000200002dc        0x4 ./App/Middle/sequence-control/sequence-control.o
+                0x00000000200002f4        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.eventDevice
-                0x00000000200002e0        0x1 ./App/Middle/sequence-control/sequence-control.o
- *fill*         0x00000000200002e1        0x3 
+                0x00000000200002f8        0x1 ./App/Middle/sequence-control/sequence-control.o
+ *fill*         0x00000000200002f9        0x3 
  .bss.g_dwCountValue
-                0x00000000200002e4        0x4 ./App/Middle/sequence-control/sequence-control.o
+                0x00000000200002fc        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.g_dwCountMiss
-                0x00000000200002e8        0x4 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000020000300        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.g_dwCountMax
-                0x00000000200002ec        0x4 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000020000304        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.g_TimeHold
-                0x00000000200002f0        0x4 ./App/Middle/sequence-control/sequence-control.o
- .bss.pData     0x00000000200002f4       0x14 ./App/Middle/sequence-control/sequence-control.o
- .bss.dwTimeInit.3
                 0x0000000020000308        0x4 ./App/Middle/sequence-control/sequence-control.o
+ .bss.pData     0x000000002000030c       0x14 ./App/Middle/sequence-control/sequence-control.o
+ .bss.dwTimeInit.3
+                0x0000000020000320        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.dwTimeCurrent.2
-                0x000000002000030c        0x4 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000020000324        0x4 ./App/Middle/sequence-control/sequence-control.o
  .bss.byCountError.1
-                0x0000000020000310        0x1 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000020000328        0x1 ./App/Middle/sequence-control/sequence-control.o
  .bss.byFlagTemp.0
-                0x0000000020000311        0x1 ./App/Middle/sequence-control/sequence-control.o
+                0x0000000020000329        0x1 ./App/Middle/sequence-control/sequence-control.o
  .bss.g_stateValve_1
-                0x0000000020000312        0x1 ./App/Middle/valve/valve.o
+                0x000000002000032a        0x1 ./App/Middle/valve/valve.o
  .bss.g_stateValve_2
-                0x0000000020000313        0x1 ./App/Middle/valve/valve.o
+                0x000000002000032b        0x1 ./App/Middle/valve/valve.o
  .bss.g_dwCountMax
-                0x0000000020000314        0x4 ./Src/main.o
-                0x0000000020000314                g_dwCountMax
+                0x000000002000032c        0x4 ./Src/main.o
+                0x000000002000032c                g_dwCountMax
  .bss.g_dwCounting
-                0x0000000020000318        0x4 ./Src/main.o
-                0x0000000020000318                g_dwCounting
+                0x0000000020000330        0x4 ./Src/main.o
+                0x0000000020000330                g_dwCounting
  .bss.g_dwCountingTemp
-                0x000000002000031c        0x4 ./Src/main.o
+                0x0000000020000334        0x4 ./Src/main.o
  .bss.g_dwCountMiss
-                0x0000000020000320        0x4 ./Src/main.o
-                0x0000000020000320                g_dwCountMiss
+                0x0000000020000338        0x4 ./Src/main.o
+                0x0000000020000338                g_dwCountMiss
  .bss.g_dwThold
-                0x0000000020000324        0x4 ./Src/main.o
-                0x0000000020000324                g_dwThold
+                0x000000002000033c        0x4 ./Src/main.o
+                0x000000002000033c                g_dwThold
  .bss.eCurrentState
-                0x0000000020000328        0x1 ./Src/main.o
-                0x0000000020000328                eCurrentState
+                0x0000000020000340        0x1 ./Src/main.o
+                0x0000000020000340                eCurrentState
  .bss.eDeviceState
-                0x0000000020000329        0x1 ./Src/main.o
-                0x0000000020000329                eDeviceState
+                0x0000000020000341        0x1 ./Src/main.o
+                0x0000000020000341                eDeviceState
+ *fill*         0x0000000020000342        0x2 
+ .bss.Data_Rx   0x0000000020000344        0x4 ./Src/main.o
+                0x0000000020000344                Data_Rx
  *(COMMON)
-                0x000000002000032c                . = ALIGN (0x4)
- *fill*         0x000000002000032a        0x2 
-                0x000000002000032c                _ebss = .
-                0x000000002000032c                __bss_end__ = _ebss
+                0x0000000020000348                . = ALIGN (0x4)
+                0x0000000020000348                _ebss = .
+                0x0000000020000348                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x000000002000032c      0x604 load address 0x0000000008007854
-                0x0000000020000330                . = ALIGN (0x8)
- *fill*         0x000000002000032c        0x4 
+                0x0000000020000348      0x600 load address 0x0000000008007f98
+                0x0000000020000348                . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x0000000020000330                PROVIDE (_end = .)
-                0x0000000020000530                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020000330      0x200 
-                0x0000000020000930                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020000530      0x400 
-                0x0000000020000930                . = ALIGN (0x8)
+                0x0000000020000348                PROVIDE (_end = .)
+                0x0000000020000548                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020000348      0x200 
+                0x0000000020000948                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000548      0x400 
+                0x0000000020000948                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2953,92 +3180,102 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .ARM.attributes
                 0x00000000000000ee       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
  .ARM.attributes
-                0x0000000000000122       0x34 ./App/Middle/button/button-v1-1.o
+                0x0000000000000122       0x34 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
  .ARM.attributes
-                0x0000000000000156       0x34 ./App/Middle/gui/GUI.o
+                0x0000000000000156       0x34 ./App/Middle/button/button-v1-1.o
  .ARM.attributes
-                0x000000000000018a       0x34 ./App/Middle/lcd/lcd.o
+                0x000000000000018a       0x34 ./App/Middle/flash/flash.o
  .ARM.attributes
-                0x00000000000001be       0x34 ./App/Middle/led/led.o
+                0x00000000000001be       0x34 ./App/Middle/gui/GUI.o
  .ARM.attributes
-                0x00000000000001f2       0x34 ./App/Middle/menu/menu.o
+                0x00000000000001f2       0x34 ./App/Middle/lcd/lcd.o
  .ARM.attributes
-                0x0000000000000226       0x34 ./App/Middle/rtos/timer.o
+                0x0000000000000226       0x34 ./App/Middle/led/led.o
  .ARM.attributes
-                0x000000000000025a       0x34 ./App/Middle/sensor/current-sensor/current-sensor.o
+                0x000000000000025a       0x34 ./App/Middle/menu/menu.o
  .ARM.attributes
-                0x000000000000028e       0x34 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+                0x000000000000028e       0x34 ./App/Middle/rtos/timer.o
  .ARM.attributes
-                0x00000000000002c2       0x34 ./App/Middle/sequence-control/sequence-control.o
+                0x00000000000002c2       0x34 ./App/Middle/sensor/current-sensor/current-sensor.o
  .ARM.attributes
-                0x00000000000002f6       0x34 ./App/Middle/spi/SPI.o
+                0x00000000000002f6       0x34 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
  .ARM.attributes
-                0x000000000000032a       0x34 ./App/Middle/utilities/utilities.o
+                0x000000000000032a       0x34 ./App/Middle/sequence-control/sequence-control.o
  .ARM.attributes
-                0x000000000000035e       0x34 ./App/Middle/valve/valve.o
+                0x000000000000035e       0x34 ./App/Middle/spi/SPI.o
  .ARM.attributes
-                0x0000000000000392       0x34 ./App/SYSTEM/delay/delay.o
+                0x0000000000000392       0x34 ./App/Middle/utilities/utilities.o
  .ARM.attributes
-                0x00000000000003c6       0x34 ./Src/main.o
+                0x00000000000003c6       0x34 ./App/Middle/valve/valve.o
  .ARM.attributes
-                0x00000000000003fa       0x21 ./Startup/startup_stm32f401retx.o
+                0x00000000000003fa       0x34 ./App/SYSTEM/delay/delay.o
  .ARM.attributes
-                0x000000000000041b       0x34 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x000000000000042e       0x34 ./Src/main.o
  .ARM.attributes
-                0x000000000000044f       0x34 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x0000000000000462       0x21 ./Startup/startup_stm32f401retx.o
  .ARM.attributes
-                0x0000000000000483       0x17 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strlen.o)
+                0x0000000000000483       0x34 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x000000000000049a       0x1e c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000000000004b7       0x34 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000000004eb       0x34 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000000000000051f       0x17 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000536       0x1e c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(jig-socket.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
 LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x0000000000000000     0x86cb
+.debug_info     0x0000000000000000     0x9537
  .debug_info    0x0000000000000000      0x5e6 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_info    0x00000000000005e6      0x672 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_info    0x0000000000000c58      0xdee ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_info    0x0000000000001a46      0xbfd ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_info    0x0000000000002643      0x5f1 ./App/Middle/button/button-v1-1.o
- .debug_info    0x0000000000002c34     0x171c ./App/Middle/gui/GUI.o
- .debug_info    0x0000000000004350      0x82a ./App/Middle/lcd/lcd.o
- .debug_info    0x0000000000004b7a      0x384 ./App/Middle/led/led.o
- .debug_info    0x0000000000004efe     0x10a4 ./App/Middle/menu/menu.o
- .debug_info    0x0000000000005fa2      0x9c4 ./App/Middle/rtos/timer.o
- .debug_info    0x0000000000006966      0x359 ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_info    0x0000000000006cbf      0x3aa ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_info    0x0000000000007069      0x326 ./App/Middle/sequence-control/sequence-control.o
- .debug_info    0x000000000000738f      0x5de ./App/Middle/spi/SPI.o
- .debug_info    0x000000000000796d      0x2e2 ./App/Middle/utilities/utilities.o
- .debug_info    0x0000000000007c4f      0x3be ./App/Middle/valve/valve.o
- .debug_info    0x000000000000800d      0x11a ./App/SYSTEM/delay/delay.o
- .debug_info    0x0000000000008127      0x582 ./Src/main.o
- .debug_info    0x00000000000086a9       0x22 ./Startup/startup_stm32f401retx.o
+ .debug_info    0x0000000000002643      0x991 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_info    0x0000000000002fd4      0x5f1 ./App/Middle/button/button-v1-1.o
+ .debug_info    0x00000000000035c5      0x3e4 ./App/Middle/flash/flash.o
+ .debug_info    0x00000000000039a9     0x171c ./App/Middle/gui/GUI.o
+ .debug_info    0x00000000000050c5      0x82a ./App/Middle/lcd/lcd.o
+ .debug_info    0x00000000000058ef      0x384 ./App/Middle/led/led.o
+ .debug_info    0x0000000000005c73     0x1134 ./App/Middle/menu/menu.o
+ .debug_info    0x0000000000006da7      0x9c4 ./App/Middle/rtos/timer.o
+ .debug_info    0x000000000000776b      0x359 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_info    0x0000000000007ac4      0x3aa ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_info    0x0000000000007e6e      0x326 ./App/Middle/sequence-control/sequence-control.o
+ .debug_info    0x0000000000008194      0x5de ./App/Middle/spi/SPI.o
+ .debug_info    0x0000000000008772      0x2e2 ./App/Middle/utilities/utilities.o
+ .debug_info    0x0000000000008a54      0x3be ./App/Middle/valve/valve.o
+ .debug_info    0x0000000000008e12      0x11a ./App/SYSTEM/delay/delay.o
+ .debug_info    0x0000000000008f2c      0x5e9 ./Src/main.o
+ .debug_info    0x0000000000009515       0x22 ./Startup/startup_stm32f401retx.o
 
-.debug_abbrev   0x0000000000000000     0x1ef4
+.debug_abbrev   0x0000000000000000     0x22a2
  .debug_abbrev  0x0000000000000000      0x141 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_abbrev  0x0000000000000141      0x1df ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_abbrev  0x0000000000000320      0x1d6 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_abbrev  0x00000000000004f6      0x197 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_abbrev  0x000000000000068d      0x21b ./App/Middle/button/button-v1-1.o
- .debug_abbrev  0x00000000000008a8      0x2a6 ./App/Middle/gui/GUI.o
- .debug_abbrev  0x0000000000000b4e      0x27a ./App/Middle/lcd/lcd.o
- .debug_abbrev  0x0000000000000dc8      0x16a ./App/Middle/led/led.o
- .debug_abbrev  0x0000000000000f32      0x1cd ./App/Middle/menu/menu.o
- .debug_abbrev  0x00000000000010ff      0x2d8 ./App/Middle/rtos/timer.o
- .debug_abbrev  0x00000000000013d7      0x169 ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_abbrev  0x0000000000001540      0x169 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_abbrev  0x00000000000016a9      0x159 ./App/Middle/sequence-control/sequence-control.o
- .debug_abbrev  0x0000000000001802      0x197 ./App/Middle/spi/SPI.o
- .debug_abbrev  0x0000000000001999       0xdc ./App/Middle/utilities/utilities.o
- .debug_abbrev  0x0000000000001a75      0x18c ./App/Middle/valve/valve.o
- .debug_abbrev  0x0000000000001c01       0xcb ./App/SYSTEM/delay/delay.o
- .debug_abbrev  0x0000000000001ccc      0x216 ./Src/main.o
- .debug_abbrev  0x0000000000001ee2       0x12 ./Startup/startup_stm32f401retx.o
+ .debug_abbrev  0x000000000000068d      0x1a1 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_abbrev  0x000000000000082e      0x21b ./App/Middle/button/button-v1-1.o
+ .debug_abbrev  0x0000000000000a49      0x1fb ./App/Middle/flash/flash.o
+ .debug_abbrev  0x0000000000000c44      0x2a6 ./App/Middle/gui/GUI.o
+ .debug_abbrev  0x0000000000000eea      0x27a ./App/Middle/lcd/lcd.o
+ .debug_abbrev  0x0000000000001164      0x16a ./App/Middle/led/led.o
+ .debug_abbrev  0x00000000000012ce      0x1cd ./App/Middle/menu/menu.o
+ .debug_abbrev  0x000000000000149b      0x2d8 ./App/Middle/rtos/timer.o
+ .debug_abbrev  0x0000000000001773      0x169 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_abbrev  0x00000000000018dc      0x169 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_abbrev  0x0000000000001a45      0x159 ./App/Middle/sequence-control/sequence-control.o
+ .debug_abbrev  0x0000000000001b9e      0x197 ./App/Middle/spi/SPI.o
+ .debug_abbrev  0x0000000000001d35       0xdc ./App/Middle/utilities/utilities.o
+ .debug_abbrev  0x0000000000001e11      0x18c ./App/Middle/valve/valve.o
+ .debug_abbrev  0x0000000000001f9d       0xcb ./App/SYSTEM/delay/delay.o
+ .debug_abbrev  0x0000000000002068      0x228 ./Src/main.o
+ .debug_abbrev  0x0000000000002290       0x12 ./Startup/startup_stm32f401retx.o
 
-.debug_aranges  0x0000000000000000      0x800
+.debug_aranges  0x0000000000000000      0x9b8
  .debug_aranges
                 0x0000000000000000       0x30 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_aranges
@@ -3048,58 +3285,64 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_aranges
                 0x0000000000000250       0xe0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
  .debug_aranges
-                0x0000000000000330       0x48 ./App/Middle/button/button-v1-1.o
+                0x0000000000000330      0x158 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
  .debug_aranges
-                0x0000000000000378      0x120 ./App/Middle/gui/GUI.o
+                0x0000000000000488       0x48 ./App/Middle/button/button-v1-1.o
  .debug_aranges
-                0x0000000000000498       0x90 ./App/Middle/lcd/lcd.o
+                0x00000000000004d0       0x60 ./App/Middle/flash/flash.o
  .debug_aranges
-                0x0000000000000528       0x28 ./App/Middle/led/led.o
+                0x0000000000000530      0x120 ./App/Middle/gui/GUI.o
  .debug_aranges
-                0x0000000000000550       0x78 ./App/Middle/menu/menu.o
+                0x0000000000000650       0x90 ./App/Middle/lcd/lcd.o
  .debug_aranges
-                0x00000000000005c8       0x70 ./App/Middle/rtos/timer.o
+                0x00000000000006e0       0x28 ./App/Middle/led/led.o
  .debug_aranges
-                0x0000000000000638       0x28 ./App/Middle/sensor/current-sensor/current-sensor.o
+                0x0000000000000708       0x78 ./App/Middle/menu/menu.o
  .debug_aranges
-                0x0000000000000660       0x28 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+                0x0000000000000780       0x70 ./App/Middle/rtos/timer.o
  .debug_aranges
-                0x0000000000000688       0x30 ./App/Middle/sequence-control/sequence-control.o
+                0x00000000000007f0       0x28 ./App/Middle/sensor/current-sensor/current-sensor.o
  .debug_aranges
-                0x00000000000006b8       0x30 ./App/Middle/spi/SPI.o
+                0x0000000000000818       0x28 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
  .debug_aranges
-                0x00000000000006e8       0x48 ./App/Middle/utilities/utilities.o
+                0x0000000000000840       0x30 ./App/Middle/sequence-control/sequence-control.o
  .debug_aranges
-                0x0000000000000730       0x30 ./App/Middle/valve/valve.o
+                0x0000000000000870       0x30 ./App/Middle/spi/SPI.o
  .debug_aranges
-                0x0000000000000760       0x28 ./App/SYSTEM/delay/delay.o
+                0x00000000000008a0       0x48 ./App/Middle/utilities/utilities.o
  .debug_aranges
-                0x0000000000000788       0x50 ./Src/main.o
+                0x00000000000008e8       0x30 ./App/Middle/valve/valve.o
  .debug_aranges
-                0x00000000000007d8       0x28 ./Startup/startup_stm32f401retx.o
+                0x0000000000000918       0x28 ./App/SYSTEM/delay/delay.o
+ .debug_aranges
+                0x0000000000000940       0x50 ./Src/main.o
+ .debug_aranges
+                0x0000000000000990       0x28 ./Startup/startup_stm32f401retx.o
 
-.debug_ranges   0x0000000000000000      0x6d8
+.debug_ranges   0x0000000000000000      0x870
  .debug_ranges  0x0000000000000000       0x20 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_ranges  0x0000000000000020       0x78 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_ranges  0x0000000000000098      0x188 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_ranges  0x0000000000000220       0xd0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_ranges  0x00000000000002f0       0x38 ./App/Middle/button/button-v1-1.o
- .debug_ranges  0x0000000000000328      0x110 ./App/Middle/gui/GUI.o
- .debug_ranges  0x0000000000000438       0x80 ./App/Middle/lcd/lcd.o
- .debug_ranges  0x00000000000004b8       0x18 ./App/Middle/led/led.o
- .debug_ranges  0x00000000000004d0       0x68 ./App/Middle/menu/menu.o
- .debug_ranges  0x0000000000000538       0x60 ./App/Middle/rtos/timer.o
- .debug_ranges  0x0000000000000598       0x18 ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_ranges  0x00000000000005b0       0x18 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_ranges  0x00000000000005c8       0x20 ./App/Middle/sequence-control/sequence-control.o
- .debug_ranges  0x00000000000005e8       0x20 ./App/Middle/spi/SPI.o
- .debug_ranges  0x0000000000000608       0x38 ./App/Middle/utilities/utilities.o
- .debug_ranges  0x0000000000000640       0x20 ./App/Middle/valve/valve.o
- .debug_ranges  0x0000000000000660       0x18 ./App/SYSTEM/delay/delay.o
- .debug_ranges  0x0000000000000678       0x40 ./Src/main.o
- .debug_ranges  0x00000000000006b8       0x20 ./Startup/startup_stm32f401retx.o
+ .debug_ranges  0x00000000000002f0      0x148 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_ranges  0x0000000000000438       0x38 ./App/Middle/button/button-v1-1.o
+ .debug_ranges  0x0000000000000470       0x50 ./App/Middle/flash/flash.o
+ .debug_ranges  0x00000000000004c0      0x110 ./App/Middle/gui/GUI.o
+ .debug_ranges  0x00000000000005d0       0x80 ./App/Middle/lcd/lcd.o
+ .debug_ranges  0x0000000000000650       0x18 ./App/Middle/led/led.o
+ .debug_ranges  0x0000000000000668       0x68 ./App/Middle/menu/menu.o
+ .debug_ranges  0x00000000000006d0       0x60 ./App/Middle/rtos/timer.o
+ .debug_ranges  0x0000000000000730       0x18 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_ranges  0x0000000000000748       0x18 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_ranges  0x0000000000000760       0x20 ./App/Middle/sequence-control/sequence-control.o
+ .debug_ranges  0x0000000000000780       0x20 ./App/Middle/spi/SPI.o
+ .debug_ranges  0x00000000000007a0       0x38 ./App/Middle/utilities/utilities.o
+ .debug_ranges  0x00000000000007d8       0x20 ./App/Middle/valve/valve.o
+ .debug_ranges  0x00000000000007f8       0x18 ./App/SYSTEM/delay/delay.o
+ .debug_ranges  0x0000000000000810       0x40 ./Src/main.o
+ .debug_ranges  0x0000000000000850       0x20 ./Startup/startup_stm32f401retx.o
 
-.debug_macro    0x0000000000000000     0xe049
+.debug_macro    0x0000000000000000     0xe6f4
  .debug_macro   0x0000000000000000       0xce ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_macro   0x00000000000000ce      0xa84 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_macro   0x0000000000000b52       0x6b ./App/Driver/CMSIS/Source/system_stm32f4xx.o
@@ -3120,104 +3363,110 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000000000000a438      0x644 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_macro   0x000000000000aa7c       0xef ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
  .debug_macro   0x000000000000ab6b      0x366 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_macro   0x000000000000aed1       0xf0 ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000afc1      0x2f4 ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b2b5       0xb6 ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b36b      0x10d ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b478       0x22 ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b49a       0x82 ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b51c      0x14e ./App/Middle/button/button-v1-1.o
- .debug_macro   0x000000000000b66a      0x1de ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000b848       0xf4 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000b93c       0x1e ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000b95a       0x52 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000b9ac       0x3c ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000b9e8       0x34 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000ba1c       0x16 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000ba32      0x10e ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bb40       0x8d ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bbcd       0x16 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bbe3       0x43 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bc26       0x34 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bc5a       0x10 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bc6a       0x58 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bcc2       0x71 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bd33       0x1c ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000bd4f      0x12a ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000be79      0x341 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c1ba       0x16 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c1d0       0x29 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c1f9      0x112 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c30b       0x16 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c321       0x35 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c356       0x20 ./App/Middle/gui/GUI.o
- .debug_macro   0x000000000000c376      0x1b3 ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c529       0x4c ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c575       0x94 ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c609       0x57 ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c660       0x4c ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c6ac      0x118 ./App/Middle/lcd/lcd.o
- .debug_macro   0x000000000000c7c4       0xcc ./App/Middle/led/led.o
- .debug_macro   0x000000000000c890       0x40 ./App/Middle/led/led.o
- .debug_macro   0x000000000000c8d0      0x305 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cbd5      0x148 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cd1d       0x16 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cd33       0x97 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cdca       0xfd ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cec7       0x10 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000ced7       0x10 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cee7       0x1c ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cf03       0x52 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cf55       0x22 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cf77       0x10 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cf87       0x52 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000cfd9       0xd5 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d0ae       0x1c ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d0ca       0x3d ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d107       0x16 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d11d      0x145 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d262       0xfa ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d35c       0x46 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d3a2       0x1c ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d3be       0x22 ./App/Middle/menu/menu.o
- .debug_macro   0x000000000000d3e0       0xe3 ./App/Middle/rtos/timer.o
- .debug_macro   0x000000000000d4c3       0xcc ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_macro   0x000000000000d58f       0xd2 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_macro   0x000000000000d661       0x1c ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_macro   0x000000000000d67d      0x1f2 ./App/Middle/sequence-control/sequence-control.o
- .debug_macro   0x000000000000d86f      0x174 ./App/Middle/sequence-control/sequence-control.o
- .debug_macro   0x000000000000d9e3       0x10 ./App/Middle/sequence-control/sequence-control.o
- .debug_macro   0x000000000000d9f3       0x10 ./App/Middle/sequence-control/sequence-control.o
- .debug_macro   0x000000000000da03       0xde ./App/Middle/spi/SPI.o
- .debug_macro   0x000000000000dae1       0x72 ./App/Middle/utilities/utilities.o
- .debug_macro   0x000000000000db53       0xcc ./App/Middle/valve/valve.o
- .debug_macro   0x000000000000dc1f       0xd6 ./App/SYSTEM/delay/delay.o
- .debug_macro   0x000000000000dcf5      0x328 ./Src/main.o
- .debug_macro   0x000000000000e01d       0x1c ./Src/main.o
- .debug_macro   0x000000000000e039       0x10 ./Src/main.o
+ .debug_macro   0x000000000000aed1       0xc0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x000000000000af91      0x416 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_macro   0x000000000000b3a7       0xf0 ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b497      0x2f4 ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b78b       0xb6 ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b841      0x10d ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b94e       0x22 ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b970       0x82 ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000b9f2      0x14e ./App/Middle/button/button-v1-1.o
+ .debug_macro   0x000000000000bb40      0x196 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bcd6       0x52 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bd28       0x1e ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bd46       0x3c ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bd82       0x34 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bdb6      0x174 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bf2a       0x16 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bf40       0x43 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bf83       0x34 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bfb7       0x10 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000bfc7       0x58 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c01f       0x71 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c090       0x1c ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c0ac      0x12a ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c1d6      0x341 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c517       0x10 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c527       0x35 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c55c       0x20 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c57c       0x40 ./App/Middle/flash/flash.o
+ .debug_macro   0x000000000000c5bc      0x1de ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000c79a       0xf4 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000c88e       0x16 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000c8a4      0x10e ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000c9b2       0x8d ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000ca3f       0x16 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000ca55       0x29 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000ca7e      0x112 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000cb90       0x16 ./App/Middle/gui/GUI.o
+ .debug_macro   0x000000000000cba6      0x1b3 ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000cd59       0x4c ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000cda5       0x94 ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000ce39       0x57 ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000ce90       0x4c ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000cedc      0x118 ./App/Middle/lcd/lcd.o
+ .debug_macro   0x000000000000cff4       0xcc ./App/Middle/led/led.o
+ .debug_macro   0x000000000000d0c0       0x40 ./App/Middle/led/led.o
+ .debug_macro   0x000000000000d100      0x305 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d405      0x148 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d54d       0x16 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d563       0x97 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d5fa       0xfd ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d6f7       0x10 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d707       0x10 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d717       0x1c ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d733       0x52 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d785       0x22 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d7a7       0x10 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d7b7       0x52 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d809       0xd5 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d8de       0x1c ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d8fa       0x3d ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d937       0x16 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000d94d      0x145 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000da92       0xfa ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000db8c       0x46 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000dbd2       0x1c ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000dbee       0x22 ./App/Middle/menu/menu.o
+ .debug_macro   0x000000000000dc10       0xe3 ./App/Middle/rtos/timer.o
+ .debug_macro   0x000000000000dcf3       0xcc ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_macro   0x000000000000ddbf       0xd2 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_macro   0x000000000000de91       0x1c ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_macro   0x000000000000dead      0x1f2 ./App/Middle/sequence-control/sequence-control.o
+ .debug_macro   0x000000000000e09f       0x10 ./App/Middle/sequence-control/sequence-control.o
+ .debug_macro   0x000000000000e0af       0xde ./App/Middle/spi/SPI.o
+ .debug_macro   0x000000000000e18d       0x72 ./App/Middle/utilities/utilities.o
+ .debug_macro   0x000000000000e1ff       0xcc ./App/Middle/valve/valve.o
+ .debug_macro   0x000000000000e2cb       0xd6 ./App/SYSTEM/delay/delay.o
+ .debug_macro   0x000000000000e3a1      0x327 ./Src/main.o
+ .debug_macro   0x000000000000e6c8       0x1c ./Src/main.o
+ .debug_macro   0x000000000000e6e4       0x10 ./Src/main.o
 
-.debug_line     0x0000000000000000     0xa776
+.debug_line     0x0000000000000000     0xbb20
  .debug_line    0x0000000000000000      0x561 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_line    0x0000000000000561      0x7fa ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_line    0x0000000000000d5b      0xcd2 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_line    0x0000000000001a2d      0x9fa ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_line    0x0000000000002427      0xc75 ./App/Middle/button/button-v1-1.o
- .debug_line    0x000000000000309c     0x12f6 ./App/Middle/gui/GUI.o
- .debug_line    0x0000000000004392      0x9f7 ./App/Middle/lcd/lcd.o
- .debug_line    0x0000000000004d89      0x51e ./App/Middle/led/led.o
- .debug_line    0x00000000000052a7     0x13a7 ./App/Middle/menu/menu.o
- .debug_line    0x000000000000664e      0x7f7 ./App/Middle/rtos/timer.o
- .debug_line    0x0000000000006e45      0x584 ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_line    0x00000000000073c9      0x54d ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_line    0x0000000000007916      0xa7c ./App/Middle/sequence-control/sequence-control.o
- .debug_line    0x0000000000008392      0x5d8 ./App/Middle/spi/SPI.o
- .debug_line    0x000000000000896a      0x565 ./App/Middle/utilities/utilities.o
- .debug_line    0x0000000000008ecf      0x545 ./App/Middle/valve/valve.o
- .debug_line    0x0000000000009414      0x592 ./App/SYSTEM/delay/delay.o
- .debug_line    0x00000000000099a6      0xd4c ./Src/main.o
- .debug_line    0x000000000000a6f2       0x84 ./Startup/startup_stm32f401retx.o
+ .debug_line    0x0000000000002427      0xb10 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_line    0x0000000000002f37      0xc75 ./App/Middle/button/button-v1-1.o
+ .debug_line    0x0000000000003bac      0x7f3 ./App/Middle/flash/flash.o
+ .debug_line    0x000000000000439f     0x12f6 ./App/Middle/gui/GUI.o
+ .debug_line    0x0000000000005695      0x9f7 ./App/Middle/lcd/lcd.o
+ .debug_line    0x000000000000608c      0x51e ./App/Middle/led/led.o
+ .debug_line    0x00000000000065aa     0x13cf ./App/Middle/menu/menu.o
+ .debug_line    0x0000000000007979      0x7f7 ./App/Middle/rtos/timer.o
+ .debug_line    0x0000000000008170      0x584 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_line    0x00000000000086f4      0x54d ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_line    0x0000000000008c41      0xa89 ./App/Middle/sequence-control/sequence-control.o
+ .debug_line    0x00000000000096ca      0x5d8 ./App/Middle/spi/SPI.o
+ .debug_line    0x0000000000009ca2      0x565 ./App/Middle/utilities/utilities.o
+ .debug_line    0x000000000000a207      0x545 ./App/Middle/valve/valve.o
+ .debug_line    0x000000000000a74c      0x592 ./App/SYSTEM/delay/delay.o
+ .debug_line    0x000000000000acde      0xdbe ./Src/main.o
+ .debug_line    0x000000000000ba9c       0x84 ./Startup/startup_stm32f401retx.o
 
-.debug_str      0x0000000000000000    0x4590b
+.debug_str      0x0000000000000000    0x47fc3
  .debug_str     0x0000000000000000    0x356a0 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
                                       0x35829 (size before relaxing)
  .debug_str     0x00000000000356a0     0x5082 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
@@ -3226,35 +3475,39 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
                                       0x39a7c (size before relaxing)
  .debug_str     0x000000000003b2de     0x1fc8 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
                                       0x3af15 (size before relaxing)
- .debug_str     0x000000000003d2a6     0x2092 ./App/Middle/button/button-v1-1.o
+ .debug_str     0x000000000003d2a6     0x241b ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+                                      0x37a94 (size before relaxing)
+ .debug_str     0x000000000003f6c1     0x2092 ./App/Middle/button/button-v1-1.o
                                       0x3c5a4 (size before relaxing)
- .debug_str     0x000000000003f338     0x3e71 ./App/Middle/gui/GUI.o
+ .debug_str     0x0000000000041753     0x336d ./App/Middle/flash/flash.o
+                                      0x3aa8f (size before relaxing)
+ .debug_str     0x0000000000044ac0      0xd8e ./App/Middle/gui/GUI.o
                                       0x394eb (size before relaxing)
- .debug_str     0x00000000000431a9      0x261 ./App/Middle/lcd/lcd.o
+ .debug_str     0x000000000004584e      0x261 ./App/Middle/lcd/lcd.o
                                       0x3e2e1 (size before relaxing)
- .debug_str     0x000000000004340a      0x16a ./App/Middle/led/led.o
+ .debug_str     0x0000000000045aaf      0x16a ./App/Middle/led/led.o
                                       0x3a676 (size before relaxing)
- .debug_str     0x0000000000043574     0x18c7 ./App/Middle/menu/menu.o
-                                      0x41747 (size before relaxing)
- .debug_str     0x0000000000044e3b      0x5c1 ./App/Middle/rtos/timer.o
+ .debug_str     0x0000000000045c19     0x1905 ./App/Middle/menu/menu.o
+                                      0x417a0 (size before relaxing)
+ .debug_str     0x000000000004751e      0x5c1 ./App/Middle/rtos/timer.o
                                       0x3946d (size before relaxing)
- .debug_str     0x00000000000453fc       0x47 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_str     0x0000000000047adf       0x47 ./App/Middle/sensor/current-sensor/current-sensor.o
                                       0x3a5fe (size before relaxing)
- .debug_str     0x0000000000045443       0x72 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_str     0x0000000000047b26       0x72 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
                                       0x3a6b2 (size before relaxing)
- .debug_str     0x00000000000454b5      0x19f ./App/Middle/sequence-control/sequence-control.o
+ .debug_str     0x0000000000047b98      0x196 ./App/Middle/sequence-control/sequence-control.o
                                       0x3e512 (size before relaxing)
- .debug_str     0x0000000000045654       0x40 ./App/Middle/spi/SPI.o
+ .debug_str     0x0000000000047d2e       0x40 ./App/Middle/spi/SPI.o
                                       0x3c97c (size before relaxing)
- .debug_str     0x0000000000045694       0xbc ./App/Middle/utilities/utilities.o
+ .debug_str     0x0000000000047d6e       0xbc ./App/Middle/utilities/utilities.o
                                        0x3d26 (size before relaxing)
- .debug_str     0x0000000000045750       0x50 ./App/Middle/valve/valve.o
+ .debug_str     0x0000000000047e2a       0x50 ./App/Middle/valve/valve.o
                                       0x3a682 (size before relaxing)
- .debug_str     0x00000000000457a0       0x1c ./App/SYSTEM/delay/delay.o
+ .debug_str     0x0000000000047e7a       0x1c ./App/SYSTEM/delay/delay.o
                                       0x36088 (size before relaxing)
- .debug_str     0x00000000000457bc      0x11e ./Src/main.o
-                                      0x412b8 (size before relaxing)
- .debug_str     0x00000000000458da       0x31 ./Startup/startup_stm32f401retx.o
+ .debug_str     0x0000000000047e96       0xfc ./Src/main.o
+                                      0x4147c (size before relaxing)
+ .debug_str     0x0000000000047f92       0x31 ./Startup/startup_stm32f401retx.o
                                          0x6f (size before relaxing)
 
 .comment        0x0000000000000000       0x50
@@ -3263,7 +3516,9 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x0000000000000050       0x51 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .comment       0x0000000000000050       0x51 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .comment       0x0000000000000050       0x51 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
+ .comment       0x0000000000000050       0x51 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
  .comment       0x0000000000000050       0x51 ./App/Middle/button/button-v1-1.o
+ .comment       0x0000000000000050       0x51 ./App/Middle/flash/flash.o
  .comment       0x0000000000000050       0x51 ./App/Middle/gui/GUI.o
  .comment       0x0000000000000050       0x51 ./App/Middle/lcd/lcd.o
  .comment       0x0000000000000050       0x51 ./App/Middle/led/led.o
@@ -3278,24 +3533,27 @@ LOAD c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x0000000000000050       0x51 ./App/SYSTEM/delay/delay.o
  .comment       0x0000000000000050       0x51 ./Src/main.o
 
-.debug_frame    0x0000000000000000     0x1f30
+.debug_frame    0x0000000000000000     0x2630
  .debug_frame   0x0000000000000000       0x74 ./App/Driver/CMSIS/Source/system_stm32f4xx.o
  .debug_frame   0x0000000000000074      0x23c ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_frame   0x00000000000002b0      0x774 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_frame   0x0000000000000a24      0x3f4 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f401re_spi.o
- .debug_frame   0x0000000000000e18       0xf8 ./App/Middle/button/button-v1-1.o
- .debug_frame   0x0000000000000f10      0x53c ./App/Middle/gui/GUI.o
- .debug_frame   0x000000000000144c      0x220 ./App/Middle/lcd/lcd.o
- .debug_frame   0x000000000000166c       0x58 ./App/Middle/led/led.o
- .debug_frame   0x00000000000016c4      0x1e4 ./App/Middle/menu/menu.o
- .debug_frame   0x00000000000018a8      0x1a8 ./App/Middle/rtos/timer.o
- .debug_frame   0x0000000000001a50       0x58 ./App/Middle/sensor/current-sensor/current-sensor.o
- .debug_frame   0x0000000000001aa8       0x58 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
- .debug_frame   0x0000000000001b00       0x88 ./App/Middle/sequence-control/sequence-control.o
- .debug_frame   0x0000000000001b88       0x84 ./App/Middle/spi/SPI.o
- .debug_frame   0x0000000000001c0c      0x100 ./App/Middle/utilities/utilities.o
- .debug_frame   0x0000000000001d0c       0x78 ./App/Middle/valve/valve.o
- .debug_frame   0x0000000000001d84       0x5c ./App/SYSTEM/delay/delay.o
- .debug_frame   0x0000000000001de0      0x104 ./Src/main.o
- .debug_frame   0x0000000000001ee4       0x2c c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000001f10       0x20 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000e18      0x5b0 ./App/Driver/STM32F401RE_StdPeriph_Driver/src/stm32f4xx_flash.o
+ .debug_frame   0x00000000000013c8       0xf8 ./App/Middle/button/button-v1-1.o
+ .debug_frame   0x00000000000014c0      0x12c ./App/Middle/flash/flash.o
+ .debug_frame   0x00000000000015ec      0x53c ./App/Middle/gui/GUI.o
+ .debug_frame   0x0000000000001b28      0x220 ./App/Middle/lcd/lcd.o
+ .debug_frame   0x0000000000001d48       0x58 ./App/Middle/led/led.o
+ .debug_frame   0x0000000000001da0      0x1e4 ./App/Middle/menu/menu.o
+ .debug_frame   0x0000000000001f84      0x1a8 ./App/Middle/rtos/timer.o
+ .debug_frame   0x000000000000212c       0x58 ./App/Middle/sensor/current-sensor/current-sensor.o
+ .debug_frame   0x0000000000002184       0x58 ./App/Middle/sensor/proximity-sensor/proximity-sensor.o
+ .debug_frame   0x00000000000021dc       0x88 ./App/Middle/sequence-control/sequence-control.o
+ .debug_frame   0x0000000000002264       0x84 ./App/Middle/spi/SPI.o
+ .debug_frame   0x00000000000022e8      0x100 ./App/Middle/utilities/utilities.o
+ .debug_frame   0x00000000000023e8       0x78 ./App/Middle/valve/valve.o
+ .debug_frame   0x0000000000002460       0x5c ./App/SYSTEM/delay/delay.o
+ .debug_frame   0x00000000000024bc      0x100 ./Src/main.o
+ .debug_frame   0x00000000000025bc       0x2c c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000025e8       0x28 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000002610       0x20 c:/st/stm32cubeide_1.10.1/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)

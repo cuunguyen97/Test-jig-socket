@@ -24,6 +24,7 @@ SUBDIRS := \
 App/Driver/CMSIS/Source \
 App/Driver/STM32F401RE_StdPeriph_Driver/src \
 App/Middle/button \
+App/Middle/flash \
 App/Middle/gui \
 App/Middle/lcd \
 App/Middle/led \

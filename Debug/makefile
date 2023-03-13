@@ -24,6 +24,7 @@ RM := rm -rf
 -include App/Middle/led/subdir.mk
 -include App/Middle/lcd/subdir.mk
 -include App/Middle/gui/subdir.mk
+-include App/Middle/flash/subdir.mk
 -include App/Middle/button/subdir.mk
 -include App/Driver/STM32F401RE_StdPeriph_Driver/src/subdir.mk
 -include App/Driver/CMSIS/Source/subdir.mk

@@ -29,7 +29,6 @@
 /******************************************************************************/
 #include "GUI.h"
 #include "lcd.h"
-#include "picture.h"
 #include <stdint.h>
 #include <stdio.h>
 #include "utilities.h"
@@ -43,6 +42,7 @@
 #include "current-sensor.h"
 #include "proximity-sensor.h"
 #include "led.h"
+#include "flash.h"
 #include "menu.h"
 /******************************************************************************/
 /*                     EXPORTED TYPES and DEFINITIONS                         */
@@ -74,6 +74,9 @@ uint32_t g_dwThold = 0;
 ValueKey_e valueKey = NOKEY;
 StateApp_e eCurrentState = STATE_APP_STARTUP;
 DeviceState_e eDeviceState = STOP;
+UserData_t *Data_Rx;
+//	for(uint8_t i=0;i<6;i++){
+
 /******************************************************************************/
 /*                              EXPORTED DATA                                 */
 /******************************************************************************/
@@ -127,7 +130,7 @@ static void appInitCommon(void)
 	SystemCoreClockUpdate();
 	buttonInit();
 	proximitySensorInit();
-	currentSensorInit();
+	//currentSensorInit();
 	valveInit();
 	ledInit();
 	TimerInit();
@@ -136,6 +139,11 @@ static void appInitCommon(void)
 	eCurrentState = STATE_APP_STARTUP;
 	updateDataStopHandleCallBack(UpDateData);
 	updateDataRunHandleCallBack(UpDateData);
+	FLASH_Init();
+	Data_Rx = FLASH_GetUserData();
+	g_dwCountMax = Data_Rx->countMax;
+	g_dwThold = Data_Rx->tHold;
+
 	//Gui_Drawbmp16(0,0,gImage_logo);
 }
 /**
@@ -178,6 +186,13 @@ static void UpDateData(void*arg)
 	case STOP:
 		g_dwCountMax = pData->dwCountMax;
 		g_dwThold = pData->dwThold;
+
+		Data_Rx->countMax = g_dwCountMax;
+		Data_Rx->tHold = g_dwThold;
+		Data_Rx->Used = FLASH_USERDATA_VALID;
+
+		FLASH_RamToFlash();
+
 		break;
 	default:
 		break;
@@ -203,8 +218,7 @@ static void appStateManager(void)
 			HMI(g_dwCountMax,g_dwCounting,g_dwCountMiss,g_dwThold,0);
 			LCD_ClearCursor(20, 210, 320, 240, WHITE);
 			Gui_StrCenter(20, 210, BLACK, WHITE, (u8*)"PAUSE", 16, 1);
-
-
+			valveControl(PISTON_PUSH_UP, VALVE_NUM_1);
 			while(proKey() == 0);
 			break;
 		case RUN:
@@ -216,6 +230,7 @@ static void appStateManager(void)
 			break;
 		case STOP:
 			while(processMainMenu(g_dwCountMax,g_dwCounting,g_dwCountMiss,g_dwThold)==0);
+
 			eDeviceState = PAUSE;
 			break;
 		}
@@ -228,7 +243,11 @@ static void appStateManager(void)
 			setStateApp(STATE_APP_STARTUP);
 		}
 		if(g_dwCounting !=g_dwCountingTemp)
-		HMI(g_dwCountMax,g_dwCounting,g_dwCountMiss,g_dwThold,1);
+		{
+			g_dwCountingTemp = g_dwCounting;
+			HMI(g_dwCountMax,g_dwCounting,g_dwCountMiss,g_dwThold,1);
+		}
+
 		proKey();
 		break;
 	case STATE_APP_RESET:
